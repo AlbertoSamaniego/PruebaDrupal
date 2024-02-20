@@ -1,0 +1,142 @@
+.ul-parent, .ul-child, .li-item {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.ul-parent {
+  &:before {
+    content: " ";
+    display: table;
+  }
+
+  &:after {
+    content: " ";
+    display: table;
+    clear: both;
+  }
+
+  z-index: 2000 !important;
+
+  li ul.ul-child {
+    z-index: 3000 !important;
+
+    li .ul-child {
+      z-index: 4000 !important;
+    }
+  }
+}
+
+ul .ul-child.show {
+  /* display: block; */
+  background-color: inherit;
+}
+
+.ul-parent {
+  a {
+    font-size: 16px !important;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+
+  li {
+    position: relative;
+    text-align: left;
+
+    a.tMenu {
+      -webkit-transition: background .4s ease;
+      -o-transition: background .4s ease;
+      transition: background .4s ease;
+    }
+
+    ul {
+      min-width: 160px;
+      display: none;
+    }
+
+    li a {
+      display: block;
+      position: relative;
+    }
+  }
+
+  > li {
+    display: inline-block;
+    float: left;
+  }
+}
+
+.toggle-parent, .toggle-child {
+  cursor: pointer !important;
+}
+
+.ul-parent li a {
+  display: block;
+  text-align: left;
+}
+
+/* Vertical/Horizontal Main Menu */
+
+#main-navigation-h {
+  z-index: 1000;
+}
+
+.main-navigation-wrapper .ul-parent a {
+  width: 100%;
+}
+
+/* span arrow right or down */
+
+li.li-expanded {
+  i.fa {
+    font-weight: normal;
+    float: right;
+    display: block;
+    font-size: 16px;
+  }
+
+  .dropdown-arrow svg, .right-arrow svg {
+    float: right;
+  }
+}
+
+.right-arrow, .dropdown-arrow {
+  font-family: inherit;
+  text-align: right;
+  display: inline-block;
+}
+
+.ul-parent .li-expanded {
+  position: relative;
+}
+
+li.li-expanded > {
+  a.link-enabled:hover {
+    cursor: pointer !important;
+  }
+
+  span, a > span {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 0 12px 0 6px;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+ul li.li-expanded > {
+  span:hover, a:hover {
+    cursor: context-menu !important;
+  }
+}
+
+.mobile-nav-responsive svg, .mobile-nav svg {
+  float: right;
+}
+
+.ul-parent li.li-expanded > a {
+  padding-right: 42px;
+}

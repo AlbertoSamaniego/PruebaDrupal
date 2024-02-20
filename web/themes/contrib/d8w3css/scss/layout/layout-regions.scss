@@ -1,0 +1,93 @@
+.search-slide-inner, .header-inner, .main-navigation-inner-h, .welcome-text-inner, .highlighted-inner, .top-container-inner, .page-title-inner, .main-container-inner, .bottom-container-inner, .footer-container-inner, .footer-menu-inner, .copyright-inner {
+  float: none;
+  max-width: 1600px;
+  margin: 0 auto !important;
+}
+
+.top-container-inner {
+  .first-top, .second-top, .third-top {
+    float: left;
+  }
+}
+
+.main-container-inner {
+  .first-sidebar, .w3css-content, .second-sidebar {
+    float: left;
+  }
+}
+
+.bottom-container-inner {
+  .first-bottom, .second-bottom, .third-bottom, .forth-bottom {
+    float: left;
+  }
+}
+
+.footer-container-inner {
+  .first-footer, .second-footer, .third-footer {
+    float: left;
+  }
+}
+
+.top-container-inner {
+  .first-top > div, .second-top > div, .third-top > div {
+    float: left;
+    height: 100%;
+    width: 100% !important;
+    padding: 24px !important;
+  }
+}
+
+.main-container-inner {
+  .first-sidebar > div, .w3css-content > div, .second-sidebar > div {
+    float: left;
+    height: 100%;
+    width: 100% !important;
+    padding: 24px !important;
+  }
+}
+
+.bottom-container-inner {
+  .first-bottom > div, .second-bottom > div, .third-bottom > div, .forth-bottom > div {
+    float: left;
+    height: 100%;
+    width: 100% !important;
+    padding: 24px !important;
+  }
+}
+
+.footer-container-inner {
+  .first-footer > div, .second-footer > div, .third-footer > div {
+    float: left;
+    height: 100%;
+    width: 100% !important;
+    padding: 24px !important;
+  }
+}
+
+.main-container-inner {
+  .first-sidebar, .w3css-content, .second-sidebar {
+    margin-bottom: 12px;
+    margin-top: 12px;
+  }
+}
+
+.top-container-inner {
+  .first-top, .second-top, .third-top {
+    margin-bottom: 12px;
+    margin-top: 12px;
+  }
+}
+
+.bottom-container-inner {
+  .first-bottom, .second-bottom, .third-bottom, .forth-bottom {
+    margin-bottom: 12px;
+    margin-top: 12px;
+  }
+}
+
+.footer-container-inner {
+  .first-footer, .second-footer, .third-footer {
+    margin-bottom: 12px;
+    margin-top: 12px;
+  }
+}

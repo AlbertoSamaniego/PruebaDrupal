@@ -1,0 +1,162 @@
+/* To roll the text around the image */
+/* line 4, ../../scss/components/default-node.scss */
+.node .field--name-field-image, .node .field--name-field-media-image {
+  float: left;
+}
+
+/* line 10, ../../scss/components/default-node.scss */
+.field--type-text::after, .field--type-text::before {
+  display: inline !important;
+}
+
+/* line 16, ../../scss/components/default-node.scss */
+.field--type-text-with-summary::after, .field--type-text-with-summary::before {
+  display: inline !important;
+}
+
+/* line 22, ../../scss/components/default-node.scss */
+div.item-list > ol.item-list > li article::after, div.item-list > ol.item-list > li article::before {
+  display: inline !important;
+}
+
+/* User picture on the node */
+/* line 29, ../../scss/components/default-node.scss */
+.node__header, .node__content {
+  margin-bottom: 12px;
+}
+
+/* line 33, ../../scss/components/default-node.scss */
+.node__meta {
+  display: flex;
+  align-items: center;
+}
+/* line 37, ../../scss/components/default-node.scss */
+.node__meta .node__author-image {
+  margin-right: 12px;
+  overflow: hidden;
+}
+/* line 42, ../../scss/components/default-node.scss */
+.node__meta .node__author-info {
+  font-size: 90%;
+}
+/* line 46, ../../scss/components/default-node.scss */
+.node__meta .node__author-image img {
+  border-radius: 50%;
+}
+
+/* line 51, ../../scss/components/default-node.scss */
+.node--view-mode-full .field--type-entity-reference .field__item:first-child a {
+  padding-left: 0 !important;
+}
+
+/*.node--view-mode-full .node__content .field--type-text-long,
+.node--view-mode-full .node__content .field--type-string-long,
+.node--view-mode-full .node__content .field--type-text-with-summary {
+  font-size: 22px;
+  line-height: 190%;
+}*/
+/* Multi items field */
+/* line 65, ../../scss/components/default-node.scss */
+.field.field__items > .field__item, .field > .field__items > .field__item {
+  display: inline-block;
+}
+
+/* line 71, ../../scss/components/default-node.scss */
+.w3-expand-fields .field.field__items > .field__item, .w3-expand-fields .field > .field__items > .field__item {
+  display: block;
+}
+
+/* The wrapper for multi items field always block */
+/* line 78, ../../scss/components/default-node.scss */
+.field > .field__items {
+  display: block;
+}
+
+/* The wrapper for multi items field if the label is inline */
+/* line 85, ../../scss/components/default-node.scss */
+.field--label-inline > .field__label, .field--label-inline > .field__item, .field--label-inline > .field__items {
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* line 92, ../../scss/components/default-node.scss */
+.field--label-above > .field__label, .field--label-above > .field__item, .field--label-above > .field__items {
+  display: block;
+}
+
+/* line 98, ../../scss/components/default-node.scss */
+.field--type-h5p .field__label, .field--type-h5p .field__item, .field--type-h5p .field__items {
+  width: 100%;
+}
+
+/* line 104, ../../scss/components/default-node.scss */
+.field--label-above > .field__item {
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+/* line 109, ../../scss/components/default-node.scss */
+.field--label-above > .field__items > .field__item:first-child {
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+/* line 113, ../../scss/components/default-node.scss */
+.field--label-above > .field__items > .field__item:first-child a {
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+
+/* line 120, ../../scss/components/default-node.scss */
+.field__items > .field__item {
+  margin-right: 10px;
+}
+
+/* line 125, ../../scss/components/default-node.scss */
+.field--label-inline > .field__label {
+  margin-right: 10px;
+}
+/* line 129, ../../scss/components/default-node.scss */
+.field--label-inline .field__label::after {
+  content: ':';
+}
+
+/* line 134, ../../scss/components/default-node.scss */
+.field--name-field-tags .field__item {
+  border: none !important;
+}
+
+/* line 138, ../../scss/components/default-node.scss */
+ul.links li {
+  border: none !important;
+}
+/* line 141, ../../scss/components/default-node.scss */
+ul.links li a {
+  border: none;
+  padding: 0 !important;
+  display: inline-block;
+}
+
+/* line 148, ../../scss/components/default-node.scss */
+.field--name-field-tags .field__item a {
+  border: none;
+  padding: 3px;
+}
+
+/* line 153, ../../scss/components/default-node.scss */
+.node__content ul.links {
+  float: right;
+}
+/* line 156, ../../scss/components/default-node.scss */
+.node__content ul.links li:last-child {
+  margin-right: 0 !important;
+  padding-right: 0 !important;
+}
+
+/* line 162, ../../scss/components/default-node.scss */
+.node--view-mode-full > .node__content > .field--type-image + .field--type-text-with-summary > p:first-child {
+  margin-top: 0 !important;
+}
+
+/* line 166, ../../scss/components/default-node.scss */
+label, .field__label {
+  font-weight: bold;
+}

@@ -1,0 +1,30 @@
+/* Medium Screen Only */
+@media (max-width: 992px) and (min-width: 601px) {
+  .top-container-inner {
+    .first-top > div, .second-top > div, .third-top > div {
+      padding: 10px !important;
+    }
+  }
+
+  .main-container-inner {
+    .first-sidebar > div, .w3css-content > div, .second-sidebar > div {
+      padding: 10px !important;
+    }
+  }
+
+  .bottom-container-inner {
+    .first-bottom > div, .second-bottom > div, .third-bottom > div, .forth-bottom > div {
+      padding: 10px !important;
+    }
+  }
+
+  .footer-container-inner {
+    .first-footer > div, .second-footer > div, .third-footer > div {
+      padding: 10px !important;
+    }
+  }
+
+  .footer-menu-inner > div {
+    padding: 10px !important;
+  }
+}

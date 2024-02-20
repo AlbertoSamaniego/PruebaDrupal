@@ -1,0 +1,10 @@
+form {
+  &.user-register-form .form-actions, &.user-login-form .form-actions, &.user-pass .form-actions {
+    text-align: center;
+  }
+
+  &.user-register-form .form-actions .w3-button, &.user-login-form .form-actions .w3-button, &.user-pass .form-actions .w3-button {
+    float: none;
+    padding: 12px 24px;
+  }
+}

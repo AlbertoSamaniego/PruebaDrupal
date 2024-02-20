@@ -1,0 +1,57 @@
+/*
+Error: Invalid CSS after "break-word": expected expression (e.g. 1px, bold), was ";"
+        on line 2 of ./web/themes/contrib/adaptivetheme/at_core/styles/css/at.css
+
+1: [class*="admin-theme"]#system-theme-settings {
+2:   word-wrap: break-word;
+3:   word-break: break-word;
+4: }
+5: 
+6: [class*="admin-theme"]#system-theme-settings .vertical-tabs,
+7: [class*="admin-theme"]#system-theme-settings .form-type-vertical-tabs {
+
+Backtrace:
+./web/themes/contrib/adaptivetheme/at_core/styles/css/at.css:2
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308:in `expected'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/script/lexer.rb:240:in `expected!'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/script/parser.rb:897:in `assert_done'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/script/parser.rb:69:in `parse'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/script/parser.rb:228:in `parse'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/script.rb:27:in `parse'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/engine.rb:1169:in `parse_script'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/engine.rb:745:in `parse_property'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/engine.rb:707:in `parse_property_or_rule'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/engine.rb:666:in `parse_line'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/engine.rb:539:in `build_tree'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/engine.rb:558:in `block in append_children'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/engine.rb:557:in `each'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/engine.rb:557:in `append_children'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/engine.rb:548:in `block in build_tree'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/engine.rb:541:in `each'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/engine.rb:541:in `build_tree'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/engine.rb:558:in `block in append_children'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/engine.rb:557:in `each'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/engine.rb:557:in `append_children'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/engine.rb:417:in `_to_tree'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/engine.rb:307:in `render_with_sourcemap'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:468:in `update_stylesheet'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `each'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:294:in `watch'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/plugin.rb:109:in `method_missing'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/exec/sass_scss.rb:354:in `watch_or_update'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/exec/sass_scss.rb:51:in `process_result'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/exec/base.rb:50:in `parse'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/lib/sass/exec/base.rb:18:in `parse!'
+/usr/share/rubygems-integration/all/gems/sass-3.7.4/bin/sass:8:in `<top (required)>'
+/usr/bin/sass:25:in `load'
+/usr/bin/sass:25:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"break-word\": expected expression (e.g. 1px, bold), was \";\"\A         on line 2 of ./web/themes/contrib/adaptivetheme/at_core/styles/css/at.css\A \A 1: [class*=\"admin-theme\"]#system-theme-settings {\A 2:   word-wrap: break-word;\A 3:   word-break: break-word;\A 4: }\A 5: \A 6: [class*=\"admin-theme\"]#system-theme-settings .vertical-tabs,\A 7: [class*=\"admin-theme\"]#system-theme-settings .form-type-vertical-tabs {"; }
+
+/*# sourceMappingURL=at.css.map */

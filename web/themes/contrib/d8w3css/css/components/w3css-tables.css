@@ -1,0 +1,55 @@
+/* line 1, ../../scss/components/w3css-tables.scss */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* line 6, ../../scss/components/w3css-tables.scss */
+tr {
+  border-bottom: 1px solid #eaeaea;
+}
+/* line 9, ../../scss/components/w3css-tables.scss */
+tr.region-title {
+  background-color: #d2d2d2 !important;
+}
+
+/* line 14, ../../scss/components/w3css-tables.scss */
+.region-title td {
+  font-weight: bold !important;
+  text-transform: uppercase;
+}
+/* line 18, ../../scss/components/w3css-tables.scss */
+.region-title td a {
+  text-transform: capitalize;
+}
+
+/* line 24, ../../scss/components/w3css-tables.scss */
+table td ul {
+  margin: 0;
+}
+/* line 28, ../../scss/components/w3css-tables.scss */
+table td li {
+  list-style: none;
+}
+
+/* line 33, ../../scss/components/w3css-tables.scss */
+.w3-table-all {
+  border-color: #eaeaea !important;
+}
+
+/* line 38, ../../scss/components/w3css-tables.scss */
+.w3-table td, .w3-table th {
+  vertical-align: middle;
+  text-align: initial;
+}
+
+/* line 45, ../../scss/components/w3css-tables.scss */
+.w3-table-all td, .w3-table-all th {
+  vertical-align: middle;
+  text-align: initial;
+}
+
+/* line 52, ../../scss/components/w3css-tables.scss */
+td .form-type-radio, td .form-type-checkbox {
+  margin: 0 !important;
+}

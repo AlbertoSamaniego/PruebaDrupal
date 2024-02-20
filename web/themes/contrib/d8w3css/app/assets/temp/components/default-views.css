@@ -1,0 +1,109 @@
+/* line 1, ../../scss/components/default-views.scss */
+#views-entity-list {
+  padding: 0.01em 16px;
+}
+
+/* line 5, ../../scss/components/default-views.scss */
+.views-ui-view-displays ul li {
+  display: inline-block;
+  margin-right: 16px;
+}
+
+/* line 10, ../../scss/components/default-views.scss */
+.view-filters details.form-wrapper {
+  margin: 16px 0;
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+/* line 15, ../../scss/components/default-views.scss */
+.view-filters details.form-wrapper:hover {
+  cursor: pointer;
+}
+
+/* line 20, ../../scss/components/default-views.scss */
+.view-header {
+  padding: 0 16px;
+}
+
+/* line 24, ../../scss/components/default-views.scss */
+#view-edit-form .dropbutton li a {
+  padding: 3px 9px;
+}
+
+/* line 28, ../../scss/components/default-views.scss */
+.views-ui-display-tab-bucket {
+  padding-top: 11px;
+}
+
+/* line 32, ../../scss/components/default-views.scss */
+.js .views-edit-view .dropbutton-wrapper .dropbutton .dropbutton-action > * {
+  font-size: 14px !important;
+}
+
+/* line 36, ../../scss/components/default-views.scss */
+.views-display-setting {
+  font-size: 14px !important;
+}
+/* line 39, ../../scss/components/default-views.scss */
+.views-display-setting input, .views-display-setting .label {
+  font-size: 14px !important;
+}
+
+/* line 44, ../../scss/components/default-views.scss */
+.views-display-extra-actions a {
+  font-size: 14px !important;
+}
+
+/* line 48, ../../scss/components/default-views.scss */
+.views-preview-wrapper {
+  border-color: #eaeaea;
+  padding: 10px;
+  margin: 0 16px 8px 16px;
+}
+
+/* line 54, ../../scss/components/default-views.scss */
+.js .views-edit-view .dropbutton-wrapper .dropbutton .dropbutton-action input {
+  margin: 2px 0 !important;
+  border: none !important;
+  float: right;
+  width: 100%;
+  text-align: left;
+}
+
+/* line 63, ../../scss/components/default-views.scss */
+.view-preview-form > h2, .view-preview-form > .w3-section {
+  width: 100%;
+  display: block;
+  clear: both;
+  position: static;
+}
+
+/* line 71, ../../scss/components/default-views.scss */
+.views-filterable-options-controls .form-item {
+  float: left;
+}
+
+/* line 76, ../../scss/components/default-views.scss */
+.views-ui-display-tab-bucket .views-display-setting {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+/* line 81, ../../scss/components/default-views.scss */
+.views-ui-display-tab-bucket .dropbutton-wrapper {
+  top: 1px;
+}
+
+/* line 86, ../../scss/components/default-views.scss */
+.views-align-left {
+  text-align: left !important;
+}
+
+/* line 90, ../../scss/components/default-views.scss */
+.views-align-right {
+  text-align: right !important;
+}
+
+/* line 94, ../../scss/components/default-views.scss */
+.views-align-center {
+  text-align: center !important;
+}

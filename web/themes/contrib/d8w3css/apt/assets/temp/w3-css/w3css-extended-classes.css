@@ -1,0 +1,709 @@
+/* Global Classes */
+/* line 4, ../../scss/w3-css/w3css-extended-classes.scss */
+.text-transform-none div, .text-transform-none h1, .text-transform-none h2, .text-transform-none h3, .text-transform-none h4, .text-transform-none h5, .text-transform-none h6, .text-transform-none a {
+  text-transform: none !important;
+}
+
+/* line 9, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-fixed {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* line 15, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+
+/* line 22, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-relative {
+  position: relative;
+  width: 100%;
+}
+
+/* line 27, ../../scss/w3-css/w3css-extended-classes.scss */
+ol {
+  display: block;
+}
+
+@keyframes comeout {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/* line 41, ../../scss/w3-css/w3css-extended-classes.scss */
+.visuallyhidden {
+  opacity: 0;
+}
+
+/* line 45, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-small {
+  font-size: 14px !important;
+}
+
+/*.w3-animate-opacity {
+  animation: opac 3s;
+}*/
+/* line 53, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-animate-opacity-disabled {
+  animation: none !important;
+}
+
+/* line 57, ../../scss/w3-css/w3css-extended-classes.scss */
+.site-name-lowercase h1.site-name {
+  text-transform: lowercase !important;
+}
+/* line 60, ../../scss/w3-css/w3css-extended-classes.scss */
+.site-name-lowercase h1.site-name a {
+  text-transform: lowercase !important;
+}
+
+/* line 65, ../../scss/w3-css/w3css-extended-classes.scss */
+.site-name-capitalize h1.site-name {
+  text-transform: capitalize !important;
+}
+/* line 68, ../../scss/w3-css/w3css-extended-classes.scss */
+.site-name-capitalize h1.site-name a {
+  text-transform: capitalize !important;
+}
+
+/* line 73, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-card {
+  -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.12);
+  -moz-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.12);
+}
+
+/* line 79, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-padding-0 {
+  padding: 0 !important;
+}
+
+/* line 83, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-margin-0 {
+  margin: 0 !important;
+}
+
+/* line 87, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-box-shadow-0 {
+  box-shadow: none !important;
+}
+
+/* line 91, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-border-0 {
+  border: none !important;
+}
+
+/* line 95, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-round-0 {
+  border-radius: 0 !important;
+}
+
+/* Link Text Color Classes */
+/* line 101, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-link-red a {
+  color: #f44336 !important;
+}
+
+/* line 105, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-link-green a {
+  color: #4caf50 !important;
+}
+
+/* line 109, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-link-blue a {
+  color: #2196f3 !important;
+}
+
+/* line 113, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-link-yellow a {
+  color: #ffeb3b !important;
+}
+
+/* line 117, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-link-white a {
+  color: #fff !important;
+}
+
+/* line 121, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-link-black a {
+  color: #000 !important;
+}
+
+/* line 125, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-link-grey a, .w3-link-gray a {
+  color: #757575 !important;
+}
+
+/* line 129, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-link-amber a {
+  color: #ffc107 !important;
+}
+
+/* line 133, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-link-aqua a {
+  color: #00ffff !important;
+}
+
+/* line 137, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-link-light-blue a {
+  color: #87ceeb !important;
+}
+
+/* line 141, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-link-brown a {
+  color: #795548 !important;
+}
+
+/* line 145, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-link-cyan a {
+  color: #00bcd4 !important;
+}
+
+/* line 149, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-link-blue-grey a, .w3-link-blue-gray a {
+  color: #607d8b !important;
+}
+
+/* line 153, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-link-light-green a {
+  color: #8bc34a !important;
+}
+
+/* line 157, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-link-indigo a {
+  color: #3f51b5 !important;
+}
+
+/* line 161, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-link-khaki a {
+  color: #b4aa50 !important;
+}
+
+/* line 165, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-link-lime a {
+  color: #cddc39 !important;
+}
+
+/* line 169, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-link-orange a {
+  color: #ff9800 !important;
+}
+
+/* line 173, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-link-deep-orange a {
+  color: #ff5722 !important;
+}
+
+/* line 177, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-link-pink a {
+  color: #e91e63 !important;
+}
+
+/* line 181, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-link-purple a {
+  color: #9c27b0 !important;
+}
+
+/* line 185, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-link-deep-purple a {
+  color: #673ab7 !important;
+}
+
+/* line 189, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-link-sand a {
+  color: #fdf5e6 !important;
+}
+
+/* line 193, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-link-teal a {
+  color: #009688 !important;
+}
+
+/* line 197, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-link-light-gray a, .w3-link-light-grey a {
+  color: #f1f1f1 !important;
+}
+
+/* line 201, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-link-dark-gray a, .w3-link-dark-grey a {
+  color: #3a3a3a !important;
+}
+
+/* line 205, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-link-pale-red a {
+  color: #ffe7e7 !important;
+}
+
+/* line 209, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-link-pale-green a {
+  color: #e7ffe7 !important;
+}
+
+/* line 213, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-link-pale-yellow a {
+  color: #ffffcc !important;
+}
+
+/* line 217, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-link-pale-blue a {
+  color: #e7ffff !important;
+}
+
+/* Link Background Color Classes Hover */
+/* line 223, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-link-bg-red a {
+  background-color: #f44336 !important;
+}
+
+/* line 227, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-link-bg-green a {
+  background-color: #4caf50 !important;
+}
+
+/* line 231, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-link-bg-blue a {
+  background-color: #2196f3 !important;
+}
+
+/* line 235, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-link-bg-yellow a {
+  background-color: #ffeb3b !important;
+}
+
+/* line 239, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-link-bg-white a {
+  background-color: #fff !important;
+}
+
+/* line 243, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-link-bg-black a {
+  background-color: #000 !important;
+}
+
+/* line 247, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-link-bg-grey a, .w3-link-bg-gray a {
+  background-color: #757575 !important;
+}
+
+/* line 251, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-link-bg-amber a {
+  background-color: #ffc107 !important;
+}
+
+/* line 255, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-link-bg-aqua a {
+  background-color: #00ffff !important;
+}
+
+/* line 259, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-link-bg-light-blue a {
+  background-color: #87ceeb !important;
+}
+
+/* line 263, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-link-bg-brown a {
+  background-color: #795548 !important;
+}
+
+/* line 267, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-link-bg-cyan a {
+  background-color: #00bcd4 !important;
+}
+
+/* line 271, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-link-bg-blue-grey a, .w3-link-bg-blue-gray a {
+  background-color: #607d8b !important;
+}
+
+/* line 275, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-link-bg-light-green a {
+  background-color: #8bc34a !important;
+}
+
+/* line 279, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-link-bg-indigo a {
+  background-color: #3f51b5 !important;
+}
+
+/* line 283, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-link-bg-khaki a {
+  background-color: #b4aa50 !important;
+}
+
+/* line 287, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-link-bg-lime a {
+  background-color: #cddc39 !important;
+}
+
+/* line 291, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-link-bg-orange a {
+  background-color: #ff9800 !important;
+}
+
+/* line 295, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-link-bg-deep-orange a {
+  background-color: #ff5722 !important;
+}
+
+/* line 299, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-link-bg-pink a {
+  background-color: #e91e63 !important;
+}
+
+/* line 303, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-link-bg-purple a {
+  background-color: #9c27b0 !important;
+}
+
+/* line 307, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-link-bg-deep-purple a {
+  background-color: #673ab7 !important;
+}
+
+/* line 311, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-link-bg-sand a {
+  background-color: #fdf5e6 !important;
+}
+
+/* line 315, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-link-bg-teal a {
+  background-color: #009688 !important;
+}
+
+/* line 319, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-link-bg-light-gray a, .w3-link-bg-light-grey a {
+  background-color: #f1f1f1 !important;
+}
+
+/* line 323, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-link-bg-dark-gray a, .w3-link-bg-dark-grey a {
+  background-color: #3a3a3a !important;
+}
+
+/* line 327, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-link-bg-pale-red a {
+  background-color: #ffe7e7 !important;
+}
+
+/* line 331, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-link-bg-pale-green a {
+  background-color: #e7ffe7 !important;
+}
+
+/* line 335, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-link-bg-pale-yellow a {
+  background-color: #ffffcc !important;
+}
+
+/* line 339, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-link-bg-pale-blue a {
+  background-color: #e7ffff !important;
+}
+
+/* Link Color Classes Hover */
+/* Link Color Classes Hover */
+/* line 347, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-button-red button, .w3-link-hover-red a:hover, .w3-button-hover-red button:hover {
+  color: #fff !important;
+  background-color: #f44336 !important;
+}
+
+/* line 352, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-button-green button, .w3-link-hover-green a:hover, .w3-button-hover-green button:hover {
+  color: #fff !important;
+  background-color: #4caf50 !important;
+}
+
+/* line 357, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-button-blue button, .w3-link-hover-blue a:hover, .w3-button-hover-blue button:hover {
+  color: #fff !important;
+  background-color: #2196f3 !important;
+}
+
+/* line 362, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-button-yellow button, .w3-link-hover-yellow a:hover, .w3-button-hover-yellow button:hover {
+  color: #000 !important;
+  background-color: #ffeb3b !important;
+}
+
+/* line 367, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-button-white button, .w3-link-hover-white a:hover, .w3-button-hover-white button:hover {
+  color: #000 !important;
+  background-color: #fff !important;
+}
+
+/* line 372, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-button-black button, .w3-link-hover-black a:hover, .w3-button-hover-black button:hover {
+  color: #fff !important;
+  background-color: #000 !important;
+}
+
+/* line 377, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-button-amber button, .w3-link-hover-amber a:hover, .w3-button-hover-amber button:hover {
+  color: #000 !important;
+  background-color: #ffc107 !important;
+}
+
+/* line 382, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-button-aqua button, .w3-link-hover-aqua a:hover, .w3-button-hover-aqua button:hover {
+  color: #000 !important;
+  background-color: #00ffff !important;
+}
+
+/* line 387, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-button-light-blue button, .w3-link-hover-light-blue a:hover, .w3-button-hover-light-blue button:hover {
+  color: #000 !important;
+  background-color: #87ceeb !important;
+}
+
+/* line 392, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-button-brown button, .w3-link-hover-brown a:hover, .w3-button-hover-brown button:hover {
+  color: #fff !important;
+  background-color: #795548 !important;
+}
+
+/* line 397, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-button-cyan button, .w3-link-hover-cyan a:hover, .w3-button-hover-cyan button:hover {
+  color: #000 !important;
+  background-color: #00bcd4 !important;
+}
+
+/* line 402, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-button-light-green button, .w3-link-hover-light-green a:hover, .w3-button-hover-light-green button:hover {
+  color: #000 !important;
+  background-color: #8bc34a !important;
+}
+
+/* line 407, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-button-indigo button, .w3-link-hover-indigo a:hover, .w3-button-hover-indigo button:hover {
+  color: #fff !important;
+  background-color: #3f51b5 !important;
+}
+
+/* line 412, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-button-khaki button, .w3-link-hover-khaki a:hover, .w3-button-hover-khaki button:hover {
+  color: #000 !important;
+  background-color: #b4aa50 !important;
+}
+
+/* line 417, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-button-lime button, .w3-link-hover-lime a:hover, .w3-button-hover-lime button:hover {
+  color: #000 !important;
+  background-color: #cddc39 !important;
+}
+
+/* line 422, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-button-orange button, .w3-link-hover-orange a:hover, .w3-button-hover-orange button:hover {
+  color: #000 !important;
+  background-color: #ff9800 !important;
+}
+
+/* line 427, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-button-deep-orange button, .w3-link-hover-deep-orange a:hover, .w3-button-hover-deep-orange button:hover {
+  color: #fff !important;
+  background-color: #ff5722 !important;
+}
+
+/* line 432, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-button-pink button, .w3-link-hover-pink a:hover, .w3-button-hover-pink button:hover {
+  color: #fff !important;
+  background-color: #e91e63 !important;
+}
+
+/* line 437, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-button-purple button, .w3-link-hover-purple a:hover, .w3-button-hover-purple button:hover {
+  color: #fff !important;
+  background-color: #9c27b0 !important;
+}
+
+/* line 442, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-button-deep-purple button, .w3-link-hover-deep-purple a:hover, .w3-button-hover-deep-purple button:hover {
+  color: #fff !important;
+  background-color: #673ab7 !important;
+}
+
+/* line 447, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-button-sand button, .w3-link-hover-sand a:hover, .w3-button-hover-sand button:hover {
+  color: #000 !important;
+  background-color: #fdf5e6 !important;
+}
+
+/* line 452, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-button-teal button, .w3-link-hover-teal a:hover, .w3-button-hover-teal button:hover {
+  color: #fff !important;
+  background-color: #009688 !important;
+}
+
+/* line 457, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-button-gray button, .w3-button-grey button, .w3-link-hover-gray a:hover, .w3-link-hover-grey a:hover, .w3-button-hover-gray button:hover, .w3-button-hover-grey button:hover {
+  background-color: #757575 !important;
+}
+
+/* line 461, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-button-blue-gray button, .w3-button-blue-grey button, .w3-link-hover-blue-gray a:hover, .w3-link-hover-blue-grey a:hover, .w3-button-hover-blue-gray button:hover, .w3-button-hover-blue-grey button:hover {
+  color: #fff !important;
+  background-color: #607d8b !important;
+}
+
+/* line 466, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-button-light-gray button, .w3-button-light-grey button, .w3-link-hover-light-gray a:hover, .w3-link-hover-light-grey a:hover, .w3-button-hover-light-gray button:hover, .w3-button-hover-light-grey button:hover {
+  color: #000 !important;
+  background-color: #f1f1f1 !important;
+}
+
+/* line 471, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-button-dark-gray button, .w3-button-dark-grey button, .w3-link-hover-dark-gray a:hover, .w3-link-hover-dark-grey a:hover, .w3-button-hover-dark-gray button:hover, .w3-button-hover-dark-grey button:hover {
+  color: #fff !important;
+  background-color: #3a3a3a !important;
+}
+
+/* line 476, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-button-pale-red, .w3-link-hover-pale-red a:hover, .w3-button-hover-pale-red button:hover {
+  color: #000 !important;
+  background-color: #ffe7e7 !important;
+}
+
+/* line 481, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-button-pale-green, .w3-link-hover-pale-green a:hover, .w3-button-hover-pale-green button:hover {
+  color: #000 !important;
+  background-color: #e7ffe7 !important;
+}
+
+/* line 486, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-button-pale-yellow, .w3-link-hover-pale-yellow a:hover, .w3-button-hover-pale-yellow button:hover {
+  color: #000 !important;
+  background-color: #ffffcc !important;
+}
+
+/* line 491, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-button-pale-blue, .w3-link-hover-pale-blue a:hover, .w3-button-hover-pale-blue button:hover {
+  color: #000 !important;
+  background-color: #e7ffff !important;
+}
+
+/* Four missing text and hover classes */
+/* line 498, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-text-pale-red, .w3-hover-text-pale-red:hover {
+  color: #ffe7e7 !important;
+}
+
+/* line 502, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-text-pale-green, .w3-hover-text-pale-green:hover {
+  color: #e7ffe7 !important;
+}
+
+/* line 506, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-text-pale-yellow, .w3-hover-text-pale-yellow:hover {
+  color: #ffffcc !important;
+}
+
+/* line 510, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-text-pale-blue, .w3-hover-text-pale-blue:hover {
+  color: #e7ffff !important;
+}
+
+/* Round Hover Classes */
+/* line 516, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-circle:hover {
+  border-radius: 50%;
+}
+
+/* line 520, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-round-small:hover {
+  border-radius: 2px;
+}
+
+/* line 524, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-round:hover, .w3-round-medium:hover {
+  border-radius: 4px;
+}
+
+/* line 528, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-round-large:hover {
+  border-radius: 8px;
+}
+
+/* line 532, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-round-xlarge:hover {
+  border-radius: 16px;
+}
+
+/* line 536, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-round-xxlarge:hover {
+  border-radius: 32px;
+}
+
+/* Custom animation */
+/* line 542, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-animate-opacity {
+  animation: opac 0.6s;
+  animation-timing-function: cubic-bezier(0.1, 0.9, 2, 0.1);
+}
+
+/* line 547, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-animate-top {
+  position: relative;
+  animation: animatetop 0.6s;
+  animation-timing-function: cubic-bezier(0.1, 0.9, 1.5, 0.1);
+}
+
+/* line 553, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-animate-left {
+  position: relative;
+  animation: animateleft 0.6s;
+  animation-timing-function: cubic-bezier(0.1, 0.9, 1.5, 0.1);
+}
+
+/* line 559, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-animate-right {
+  position: relative;
+  animation: animateright 0.6s;
+  animation-timing-function: cubic-bezier(0.1, 0.9, 1.5, 0.1);
+}
+
+/* line 565, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-animate-bottom {
+  position: relative;
+  animation: animatebottom 0.6s;
+  animation-timing-function: cubic-bezier(0.1, 0.9, 1.5, 0.1);
+}
+
+/* line 571, ../../scss/w3-css/w3css-extended-classes.scss */
+.w3-animate-zoom {
+  animation: animatezoom 0.6s;
+  animation-timing-function: cubic-bezier(0.1, 0.5, 2, 0.1);
+}
+
+@keyframes wiggle {
+  0%,
+  7% {
+    transform: rotateZ(0);
+  }
+  15% {
+    transform: rotateZ(-15deg);
+  }
+  20% {
+    transform: rotateZ(10deg);
+  }
+  25% {
+    transform: rotateZ(-10deg);
+  }
+  30% {
+    transform: rotateZ(6deg);
+  }
+  35% {
+    transform: rotateZ(-4deg);
+  }
+  40%,
+  100% {
+    transform: rotateZ(0);
+  }
+}

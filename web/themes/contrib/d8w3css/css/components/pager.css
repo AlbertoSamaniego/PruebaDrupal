@@ -1,0 +1,18 @@
+/* line 1, ../../scss/components/pager.scss */
+.pager__items li {
+  padding: 0;
+}
+/* line 4, ../../scss/components/pager.scss */
+.pager__items li a {
+  padding: 6px 12px;
+  display: inline-block;
+}
+/* line 9, ../../scss/components/pager.scss */
+.pager__items li.is-active {
+  padding: 6px 12px;
+  font-weight: bold;
+}
+/* line 13, ../../scss/components/pager.scss */
+.pager__items li.is-active a {
+  padding: 0;
+}

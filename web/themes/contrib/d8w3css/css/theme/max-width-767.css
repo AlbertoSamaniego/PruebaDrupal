@@ -1,0 +1,11 @@
+@media (max-width: 767px) {
+  /* line 3, ../../scss/theme/max-width-767.scss */
+  .node--view-mode-teaser .field--name-field-image, .node--view-mode-teaser .node__content .field--name-field-media-image {
+    min-width: 100%;
+  }
+  /* line 7, ../../scss/theme/max-width-767.scss */
+  .node--view-mode-teaser .node__title, .node--view-mode-teaser .field--name-field-image, .node--view-mode-teaser .node__content .field--name-field-image {
+    padding-right: 0 !important;
+    margin-right: 0 !important;
+  }
+}

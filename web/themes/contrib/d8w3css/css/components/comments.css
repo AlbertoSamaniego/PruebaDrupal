@@ -1,0 +1,223 @@
+/* Comments Bartik style*/
+/* line 3, ../../scss/components/comments.scss */
+#content .comment-wrapper h2 {
+  margin-bottom: 1em;
+}
+/* line 6, ../../scss/components/comments.scss */
+#content .comment-wrapper h2.comment-form__title {
+  margin-bottom: 1em;
+}
+
+/* line 11, ../../scss/components/comments.scss */
+.field-node--comment {
+  font-size: 0.934em;
+}
+
+/* line 15, ../../scss/components/comments.scss */
+.comment {
+  margin-bottom: 19px;
+  vertical-align: top;
+  display: table;
+}
+
+/* line 21, ../../scss/components/comments.scss */
+[dir="rtl"] .comment {
+  direction: rtl;
+}
+
+/* line 25, ../../scss/components/comments.scss */
+.comment__meta {
+  padding: 0 30px 0 0;
+  /* LTR */
+  font-size: 1.071em;
+}
+
+/* line 32, ../../scss/components/comments.scss */
+[dir="rtl"] .comment__meta {
+  padding: 0 0 0 30px;
+}
+
+/* line 36, ../../scss/components/comments.scss */
+.comment__attribution img {
+  border: 1px solid #d3d7d9;
+}
+
+/* This is required to win over specificity of .field--type-image img */
+/* line 42, ../../scss/components/comments.scss */
+.comment .field--name-user-picture img {
+  margin: 0;
+}
+
+/* line 46, ../../scss/components/comments.scss */
+.comment__author {
+  margin: 4px 0;
+  line-height: 1.2;
+}
+/* line 47, ../../scss/components/comments.scss */
+.comment__author .username {
+  white-space: nowrap;
+}
+
+/* line 55, ../../scss/components/comments.scss */
+.comment__time {
+  margin-bottom: 4px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 0.733em;
+  line-height: 1.2;
+}
+
+/* line 62, ../../scss/components/comments.scss */
+.comment__permalink {
+  font-size: 0.733em;
+  line-height: 1.2;
+}
+
+/* line 67, ../../scss/components/comments.scss */
+.comment__author a {
+  display: inline-block;
+}
+
+/* line 71, ../../scss/components/comments.scss */
+.comment__content {
+  position: relative;
+  display: table-cell;
+  padding: 8px 16px;
+  vertical-align: top;
+  width: 100%;
+  border: 1px solid #f4f4f4;
+  word-break: break-all;
+  hyphens: auto;
+}
+/* line 81, ../../scss/components/comments.scss */
+.comment__content:before {
+  content: '';
+  position: absolute;
+  right: 100%;
+  /* LTR */
+  top: 20px;
+  border-top: 20px solid transparent;
+  border-right: 20px solid #f4f4f4;
+  /* LTR */
+  border-bottom: 20px solid transparent;
+}
+
+/* line 96, ../../scss/components/comments.scss */
+[dir="rtl"] .comment__content:before {
+  right: auto;
+  left: 100%;
+  border-right: none;
+  border-left: 20px solid #f4f4f4;
+}
+
+/* line 103, ../../scss/components/comments.scss */
+.comment__content:after {
+  content: '';
+  position: absolute;
+  right: 100%;
+  /* LTR */
+  top: 20px;
+  border-top: 20px solid transparent;
+  border-right: 20px solid transparent;
+  /* LTR */
+  border-bottom: 20px solid transparent;
+  margin-right: -1px;
+  /* LTR */
+}
+
+/* line 120, ../../scss/components/comments.scss */
+[dir="rtl"] .comment__content:after {
+  right: auto;
+  left: 100%;
+  border-right: none;
+  border-left: 20px solid transparent;
+  margin-right: 0;
+  margin-left: -1px;
+}
+
+/* line 129, ../../scss/components/comments.scss */
+.indented {
+  margin-left: 40px;
+  /* LTR */
+}
+
+/* line 135, ../../scss/components/comments.scss */
+[dir="rtl"] .indented {
+  margin-right: 40px;
+  margin-left: 0;
+}
+
+/* line 140, ../../scss/components/comments.scss */
+.comment .links {
+  padding: 0 0 0.25em 0;
+}
+/* line 143, ../../scss/components/comments.scss */
+.comment .links li {
+  padding: 0 0.5em 0 0;
+  /* LTR */
+  font-size: 1.08em;
+}
+
+/* line 151, ../../scss/components/comments.scss */
+[dir="rtl"] .comment .links li {
+  padding: 0 0 0 0.5em;
+}
+
+/* line 155, ../../scss/components/comments.scss */
+.comment--unpublished {
+  margin-right: 5px;
+  /* LTR */
+  padding: 5px 2px 5px 5px;
+  /* LTR */
+  background: #fff4f4;
+}
+
+/* line 165, ../../scss/components/comments.scss */
+[dir="rtl"] .comment--unpublished {
+  margin-left: 5px;
+  margin-right: 0;
+  padding: 5px 5px 5px 2px;
+}
+
+/**
+ * change this to .comment--unpublished.
+ */
+/* line 175, ../../scss/components/comments.scss */
+.unpublished {
+  padding: 20px 15px 0;
+}
+/* line 176, ../../scss/components/comments.scss */
+.unpublished .comment-text .comment-arrow {
+  border-left: 1px solid #fff4f4;
+  border-right: 1px solid #fff4f4;
+}
+
+/* line 184, ../../scss/components/comments.scss */
+.comment-footer {
+  display: table-row;
+}
+
+/* line 188, ../../scss/components/comments.scss */
+.comment--unpublished .comment__text:after, .node--unpublished .comment__text:after {
+  border-right-color: #fff4f4;
+  /* LTR */
+}
+
+/* line 195, ../../scss/components/comments.scss */
+[dir="rtl"] .comment--unpublished .comment__content:after, [dir="rtl"] .node--unpublished .comment__content:after {
+  border-left-color: #fff4f4;
+}
+
+/* line 200, ../../scss/components/comments.scss */
+.text-format-wrapper > .w3-section {
+  margin-bottom: 0 !important;
+}
+
+/* line 205, ../../scss/components/comments.scss */
+section.field--type-comment h2 {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+/* line 210, ../../scss/components/comments.scss */
+section.field--type-comment > form {
+  padding: 0 !important;
+}

@@ -1,0 +1,135 @@
+/* Form API. */
+/* line 3, ../../scss/components/forms.scss */
+.form-radios .form-item, .form-checkboxes .form-item {
+  margin-top: 0.4em !important;
+  margin-bottom: 0.4em !important;
+}
+
+/* line 8, ../../scss/components/forms.scss */
+.form-radios .form-type-radio, .form-type-checkbox {
+  max-width: 100%;
+  text-align: left;
+}
+
+/* line 13, ../../scss/components/forms.scss */
+.form-type-radio label, .form-type-checkbox label {
+  margin-left: 4px !important;
+  /* LTR */
+  float: none !important;
+}
+
+/* line 21, ../../scss/components/forms.scss */
+[dir="rtl"] .form-type-radio label, [dir="rtl"] .form-type-checkbox label {
+  margin-right: 4px !important;
+  margin-left: 0 !important;
+}
+
+/* line 27, ../../scss/components/forms.scss */
+.form-type-radio .description, .form-type-checkbox .description {
+  margin-left: 2px !important;
+  /* LTR */
+}
+
+/* line 34, ../../scss/components/forms.scss */
+[dir="rtl"] .form-type-radio .description, [dir="rtl"] .form-type-checkbox .description {
+  margin-right: 2px !important;
+  margin-left: 0 !important;
+}
+
+/* line 40, ../../scss/components/forms.scss */
+.marker {
+  color: #e00;
+}
+
+/* line 44, ../../scss/components/forms.scss */
+.form-checkbox, .form-radio {
+  display: inline-block;
+}
+
+/* line 49, ../../scss/components/forms.scss */
+abbr.tabledrag-changed, abbr.ajax-changed {
+  border-bottom: none;
+}
+
+/* line 55, ../../scss/components/forms.scss */
+.form-item input.error, .form-item textarea.error, .form-item select.error {
+  border: 2px solid red;
+}
+
+/* line 60, ../../scss/components/forms.scss */
+.form-wrapper .field-multiple-table .label {
+  font-size: inherit;
+}
+
+/* line 64, ../../scss/components/forms.scss */
+.form-required:after {
+  /*  content: "\f069" !important;
+    font-family: FontAwesome;
+    color: red;
+    vertical-align: super;
+    display: inline-block !important;
+    background-size: 10px 10px;
+    width: 10px;
+    height: 10px;
+    margin: 0 0.3em;
+    font-size: 10px;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;*/
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 0 0.3em;
+  content: "";
+  vertical-align: super;
+  background-image: url(../../images/icons/required.svg);
+  background-repeat: no-repeat;
+  background-size: 10px 10px;
+}
+
+/* Inline Error Message. */
+/* line 92, ../../scss/components/forms.scss */
+.form-item--error-message:before {
+  /*  font-family: FontAwesome;
+    content: "\f00d";
+    display: inline-block;
+    vertical-align: baseline;
+    color: red;
+    background-size: contain;*/
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin: 0 0.3em;
+  content: "";
+  vertical-align: middle;
+  background-image: url(../../images/icons/error.svg);
+  background-repeat: no-repeat;
+  background-size: 16px 16px;
+}
+
+/* line 110, ../../scss/components/forms.scss */
+input, textarea, .region-title__action a {
+  -webkit-box-shadow: inset 0 0 5px rgba(51, 44, 51, 0.1);
+  -moz-box-shadow: inset 0 0 5px rgba(51, 44, 51, 0.1);
+  box-shadow: inset 0 0 5px rgba(51, 44, 51, 0.1);
+}
+
+/* line 117, ../../scss/components/forms.scss */
+.admin-context form .form-actions > a, .admin-context .action-links li > a {
+  -webkit-box-shadow: inset 0 0 5px rgba(51, 44, 51, 0.1);
+  -moz-box-shadow: inset 0 0 5px rgba(51, 44, 51, 0.1);
+  box-shadow: inset 0 0 5px rgba(51, 44, 51, 0.1);
+}
+
+/* line 124, ../../scss/components/forms.scss */
+.view-filters details.form-wrapper {
+  -webkit-box-shadow: inset 0 0 5px rgba(51, 44, 51, 0.1);
+  -moz-box-shadow: inset 0 0 5px rgba(51, 44, 51, 0.1);
+  box-shadow: inset 0 0 5px rgba(51, 44, 51, 0.1);
+}
+
+/* line 130, ../../scss/components/forms.scss */
+[type=checkbox], [type=radio] {
+  box-shadow: none;
+}

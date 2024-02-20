@@ -1,0 +1,328 @@
+/* line 2, ../../scss/components/node-form.scss */
+details.form-wrapper {
+  padding: 0 !important;
+  margin-bottom: 8px !important;
+  line-height: inherit;
+  color: inherit;
+}
+/* line 3, ../../scss/components/node-form.scss */
+details.form-wrapper::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/* line 14, ../../scss/components/node-form.scss */
+details.form-wrapper > summary {
+  cursor: pointer;
+  padding: 8px 16px;
+}
+/* line 20, ../../scss/components/node-form.scss */
+details[open] {
+  padding: 8px 16px !important;
+}
+
+/* line 25, ../../scss/components/node-form.scss */
+.modules-wrapper details[open] {
+  padding: 8px 16px !important;
+  background: white;
+}
+
+/* line 30, ../../scss/components/node-form.scss */
+.vertical-tabs details[open] {
+  padding: 0 !important;
+}
+
+/* line 34, ../../scss/components/node-form.scss */
+details[open] > summary {
+  padding: 0 0 8px 0;
+}
+
+/* line 40, ../../scss/components/node-form.scss */
+form .tableselect-sort th:first-child, form .tableselect-sort td:first-child {
+  width: 85px;
+}
+/* line 46, ../../scss/components/node-form.scss */
+form tr.draggable td > a {
+  float: left !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  clear: none !important;
+}
+/* line 54, ../../scss/components/node-form.scss */
+form tr.draggable td > div.form-type-radio, form tr.draggable td > div.form-type-checkbox {
+  float: left !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  clear: none !important;
+}
+/* line 63, ../../scss/components/node-form.scss */
+form a.tabledrag-handle .handle {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+/* line 70, ../../scss/components/node-form.scss */
+form .draggable a.tabledrag-handle {
+  margin: -3px 5px 0 0 !important;
+  width: 25px;
+}
+/* line 76, ../../scss/components/node-form.scss */
+form tr.draggable .w3-check, form tr.draggable .w3-radio {
+  top: 0;
+}
+/* line 81, ../../scss/components/node-form.scss */
+form .field-multiple-drag {
+  width: 50px;
+}
+/* line 85, ../../scss/components/node-form.scss */
+form div.form-type-datelist.w3-section.form-item {
+  width: auto;
+  clear: none;
+}
+/* line 90, ../../scss/components/node-form.scss */
+form .form-type-date label, form .form-item-color label, form .form-type-select label, form .form-type-datelist label, form .form-type-datetime label {
+  display: block;
+  clear: both;
+}
+
+/* line 96, ../../scss/components/node-form.scss */
+.form-type-datelist > div {
+  padding-left: 0;
+}
+
+/* line 101, ../../scss/components/node-form.scss */
+form #edit-datelist {
+  padding: 0;
+  margin: 0;
+}
+/* line 106, ../../scss/components/node-form.scss */
+form #edit-datetime {
+  padding: 0;
+  margin: 0;
+}
+/* line 110, ../../scss/components/node-form.scss */
+form #edit-datetime > div {
+  float: left;
+  margin: 0 !important;
+  width: 50%;
+}
+/* line 115, ../../scss/components/node-form.scss */
+form #edit-datetime > div input {
+  min-width: 165px;
+}
+/* line 121, ../../scss/components/node-form.scss */
+form .form-type-date, form .form-type-datetime, form .form-type-webform-time {
+  width: 50% !important;
+  float: left;
+  clear: none;
+}
+/* line 127, ../../scss/components/node-form.scss */
+form .form-type-date input, form .form-type-datetime input, form .form-type-webform-time input {
+  width: calc(100% - 2px);
+}
+/* line 132, ../../scss/components/node-form.scss */
+form .form-item-range > span.field-suffix {
+  display: block;
+  float: left;
+  width: 100%;
+}
+/* line 138, ../../scss/components/node-form.scss */
+form .form-item-range .form-item-range__output {
+  display: block;
+  float: left;
+  width: 100%;
+}
+/* line 143, ../../scss/components/node-form.scss */
+form .form-item-range .form-item-range__output input {
+  width: 4em;
+  display: inline-block;
+  clear: none;
+}
+/* line 151, ../../scss/components/node-form.scss */
+form .form-item-datelist #edit-datelist > div select {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+/* line 156, ../../scss/components/node-form.scss */
+form .table-sort-weight.form-select {
+  width: auto;
+}
+/* line 160, ../../scss/components/node-form.scss */
+form select {
+  min-width: 75px;
+}
+
+/* line 165, ../../scss/components/node-form.scss */
+.messages.messages--info {
+  background-position: 2px  17px;
+}
+
+/* line 169, ../../scss/components/node-form.scss */
+.js-filter-guidelines {
+  font-size: 85%;
+}
+/* line 172, ../../scss/components/node-form.scss */
+.js-filter-guidelines li {
+  padding-bottom: 0;
+}
+
+/* line 177, ../../scss/components/node-form.scss */
+form .form-item {
+  text-align: left;
+}
+
+/* line 181, ../../scss/components/node-form.scss */
+fieldset.form-item > .fieldset-wrapper {
+  padding: 0;
+}
+
+/* line 185, ../../scss/components/node-form.scss */
+.field-ui-overview .field-plugin-settings-edit {
+  width: auto !important;
+  max-width: 40px;
+}
+
+/* line 190, ../../scss/components/node-form.scss */
+form .form-item label {
+  padding-right: 10px;
+}
+
+/* line 194, ../../scss/components/node-form.scss */
+table ul.dropbutton {
+  background-color: white;
+  border: 1px solid #e8e8e8;
+  padding: 0 !important;
+}
+/* line 195, ../../scss/components/node-form.scss */
+table ul.dropbutton li.w3-left.dropbutton-action {
+  float: none !important;
+  z-index: 1;
+  margin-right: 0 !important;
+  line-height: 26px;
+}
+
+/* line 207, ../../scss/components/node-form.scss */
+.js .dropbutton-widget .dropbutton {
+  background-color: white;
+  border: 1px solid #e8e8e8;
+  padding: 0 !important;
+}
+
+/* line 214, ../../scss/components/node-form.scss */
+.dropbutton li {
+  padding: 0;
+}
+/* line 217, ../../scss/components/node-form.scss */
+.dropbutton li a {
+  padding: 6px 12px;
+  line-height: 26px;
+  font-size: 14px;
+}
+/* line 224, ../../scss/components/node-form.scss */
+.dropbutton button {
+  border: 1px solid #e8e8e8;
+  border-left: none;
+  background-color: white;
+}
+
+/* line 231, ../../scss/components/node-form.scss */
+.js td .dropbutton-wrapper {
+  min-height: 40px;
+}
+
+/* line 235, ../../scss/components/node-form.scss */
+table ul.dropbutton li:first-child {
+  margin-right: 10px !important;
+}
+
+/* line 239, ../../scss/components/node-form.scss */
+.node-form table ul.dropbutton li:first-child {
+  margin-right: 0 !important;
+}
+
+/* line 243, ../../scss/components/node-form.scss */
+table ul.dropbutton li.dropbutton-toggle {
+  margin-right: 0 !important;
+  margin-left: 10px;
+}
+
+/* Node preview */
+/* line 250, ../../scss/components/node-form.scss */
+.node-preview-container {
+  position: relative;
+  background-color: transparent;
+}
+/* line 254, ../../scss/components/node-form.scss */
+.node-preview-container .node-preview-form-select {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: auto;
+  height: 100%;
+  margin: 0 auto !important;
+}
+/* line 263, ../../scss/components/node-form.scss */
+.node-preview-container a.node-preview-backlink {
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 12px;
+}
+/* line 268, ../../scss/components/node-form.scss */
+.node-preview-container a.node-preview-backlink:hover {
+  text-decoration: underline;
+}
+
+/* line 274, ../../scss/components/node-form.scss */
+div.node-preview-container .form-item-view-mode {
+  display: inline-flex;
+  align-items: center;
+}
+/* line 278, ../../scss/components/node-form.scss */
+div.node-preview-container .form-item-view-mode label {
+  display: inline-block;
+  width: auto;
+  border: none !important;
+}
+/* line 284, ../../scss/components/node-form.scss */
+div.node-preview-container .form-item-view-mode select {
+  display: inline-block;
+  width: auto;
+  border: none !important;
+  min-width: 130px;
+}
+
+/* line 292, ../../scss/components/node-form.scss */
+.ui-dialog .ui-widget-content.ui-dialog-buttonpane .button {
+  margin: 10px auto;
+}
+
+/* line 296, ../../scss/components/node-form.scss */
+fieldset {
+  border-color: #eaeaea !important;
+}
+
+/* line 300, ../../scss/components/node-form.scss */
+.ui-dialog {
+  border-width: 0 !important;
+}
+/* line 303, ../../scss/components/node-form.scss */
+.ui-dialog > div {
+  border-width: 0 !important;
+}
+
+/* line 308, ../../scss/components/node-form.scss */
+body .ui-dialog {
+  z-index: 1001 !important;
+}
+
+/* line 312, ../../scss/components/node-form.scss */
+.vertical-tabs .vertical-tabs__panes {
+  padding: 0 16px;
+}
+
+/* line 317, ../../scss/components/node-form.scss */
+span.admin-link button, span.field-edit-link button {
+  border: none !important;
+  background-color: transparent !important;
+}

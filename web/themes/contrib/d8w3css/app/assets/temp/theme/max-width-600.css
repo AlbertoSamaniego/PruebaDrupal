@@ -1,0 +1,167 @@
+@media (max-width: 600px) {
+  /* line 2, ../../scss/theme/max-width-600.scss */
+  html, body {
+    font-size: 100%;
+  }
+
+  /* line 7, ../../scss/theme/max-width-600.scss */
+  .top-container-inner .first-top > div, .top-container-inner .second-top > div, .top-container-inner .third-top > div {
+    padding: 8px !important;
+  }
+
+  /* line 13, ../../scss/theme/max-width-600.scss */
+  .main-container-inner .first-sidebar > div, .main-container-inner .w3css-content > div, .main-container-inner .second-sidebar > div {
+    padding: 8px !important;
+  }
+
+  /* line 19, ../../scss/theme/max-width-600.scss */
+  .bottom-container-inner .first-bottom > div, .bottom-container-inner .second-bottom > div, .bottom-container-inner .third-bottom > div, .bottom-container-inner .forth-bottom > div {
+    padding: 8px !important;
+  }
+
+  /* line 25, ../../scss/theme/max-width-600.scss */
+  .footer-container-inner .first-footer > div, .footer-container-inner .second-footer > div, .footer-container-inner .third-footer > div {
+    padding: 8px !important;
+  }
+
+  /* line 30, ../../scss/theme/max-width-600.scss */
+  .footer-menu-inner > div {
+    padding: 8px !important;
+  }
+
+  /* line 34, ../../scss/theme/max-width-600.scss */
+  .w3-container {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+  }
+
+  /* line 39, ../../scss/theme/max-width-600.scss */
+  .w3-padding-large, .w3-padding {
+    padding: 3px 6px !important;
+  }
+
+  /* line 43, ../../scss/theme/max-width-600.scss */
+  h1 {
+    font-size: 22px;
+  }
+  /* line 44, ../../scss/theme/max-width-600.scss */
+  h1.page-title {
+    font-size: 22px;
+    padding: 12px 8px;
+  }
+
+  /* line 52, ../../scss/theme/max-width-600.scss */
+  h2 {
+    font-size: 20px;
+  }
+
+  /* line 56, ../../scss/theme/max-width-600.scss */
+  h3 {
+    font-size: 18px;
+  }
+
+  /* line 60, ../../scss/theme/max-width-600.scss */
+  h4 {
+    font-size: 16px;
+  }
+
+  /* line 64, ../../scss/theme/max-width-600.scss */
+  p {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    margin: 0;
+  }
+
+  /* line 70, ../../scss/theme/max-width-600.scss */
+  #header-inner {
+    padding: 0 !important;
+  }
+  /* line 73, ../../scss/theme/max-width-600.scss */
+  #header-inner > nav {
+    width: 100% !important;
+    clear: both !important;
+  }
+  /* line 77, ../../scss/theme/max-width-600.scss */
+  #header-inner > nav > ul {
+    width: 100% !important;
+    clear: both !important;
+  }
+  /* line 81, ../../scss/theme/max-width-600.scss */
+  #header-inner > nav > ul li {
+    float: left !important;
+  }
+
+  /* line 88, ../../scss/theme/max-width-600.scss */
+  .site-logo {
+    margin: 10px auto 0 auto !important;
+    padding: 0 !important;
+    width: 100%;
+    text-align: center;
+  }
+
+  /* line 95, ../../scss/theme/max-width-600.scss */
+  .block-system-branding-block {
+    width: 96%;
+    margin: 0 2% !important;
+  }
+
+  /* line 100, ../../scss/theme/max-width-600.scss */
+  .site-name, .site-slogan, .site-name a {
+    display: block;
+    text-align: center;
+  }
+
+  /* line 105, ../../scss/theme/max-width-600.scss */
+  .site-name-slogan {
+    display: inline-block;
+    margin: 16px auto;
+    width: 100%;
+  }
+
+  /* line 111, ../../scss/theme/max-width-600.scss */
+  .site-name {
+    font-size: 22px;
+  }
+
+  /* line 115, ../../scss/theme/max-width-600.scss */
+  .site-slogan {
+    font-size: 16px !important;
+  }
+
+  /* line 119, ../../scss/theme/max-width-600.scss */
+  .node__meta .node__submitted {
+    margin: -2px 10px 0 0 !important;
+  }
+
+  /* line 123, ../../scss/theme/max-width-600.scss */
+  .highlighted-inner, .welcome-text-inner, #copyright-inner .w3-container {
+    padding: 0 5px !important;
+  }
+
+  /* line 127, ../../scss/theme/max-width-600.scss */
+  .w3-section {
+    margin: 5px 0 !important;
+  }
+
+  /* line 131, ../../scss/theme/max-width-600.scss */
+  .copyright-inner .w3-half p {
+    text-align: center !important;
+  }
+
+  /* Search Page*/
+  /* line 137, ../../scss/theme/max-width-600.scss */
+  .path-search form.search-form > .form-wrapper {
+    margin-bottom: 10px;
+  }
+  /* line 141, ../../scss/theme/max-width-600.scss */
+  .path-search form.search-form > .form-wrapper > .form-type-search {
+    width: 100%;
+  }
+  /* line 145, ../../scss/theme/max-width-600.scss */
+  .path-search form.search-form > .form-wrapper > .form-submit {
+    position: inherit;
+    margin: 0;
+    width: 100%;
+    bottom: 0;
+  }
+}

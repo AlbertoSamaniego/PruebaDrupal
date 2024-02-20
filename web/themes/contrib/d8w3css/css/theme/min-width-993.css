@@ -1,0 +1,90 @@
+@media (min-width: 993px) {
+  /* node edit */
+  /* line 4, ../../scss/theme/min-width-993.scss */
+  .path-node .layout-node-form {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  /* line 9, ../../scss/theme/min-width-993.scss */
+  .layout-region-node-secondary {
+    -webkit-box-shadow: 10px 0px 20px 10px rgba(180, 180, 180, 0.1);
+    box-shadow: 10px 0px 20px 10px rgba(180, 180, 180, 0.2);
+    width: 29%;
+    margin: 20px 0 20px 1%;
+  }
+
+  /* line 16, ../../scss/theme/min-width-993.scss */
+  .layout-region-node-main {
+    -webkit-box-shadow: -10px 0px 20px 10px rgba(180, 180, 180, 0.1);
+    box-shadow: -10px 0px 20px 10px rgba(180, 180, 180, 0.2);
+    width: 69%;
+    margin: 20px 1% 20px 0;
+  }
+
+  /* line 23, ../../scss/theme/min-width-993.scss */
+  .layout-region-node-footer {
+    margin-top: 0;
+    flex: 0 0 100%;
+  }
+
+  /* line 28, ../../scss/theme/min-width-993.scss */
+  #main-container-inner .breadcrumb-found {
+    margin-top: 0 !important;
+  }
+
+  /* line 32, ../../scss/theme/min-width-993.scss */
+  .highlighted-inner {
+    padding: 0 20px;
+  }
+
+  /* line 36, ../../scss/theme/min-width-993.scss */
+  li.li-expanded > span {
+    pointer-events: none;
+  }
+
+  /* Main Menu */
+  /* line 44, ../../scss/theme/min-width-993.scss */
+  .ul-parent li > a {
+    padding: 12px 16px;
+  }
+  /* line 48, ../../scss/theme/min-width-993.scss */
+  .ul-parent li li > a {
+    padding: 10px 14px;
+  }
+  /* line 53, ../../scss/theme/min-width-993.scss */
+  .ul-parent .ul-child {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  /* line 58, ../../scss/theme/min-width-993.scss */
+  .ul-parent li .li-expanded:hover ul {
+    left: 100%;
+    top: 0;
+  }
+  /* line 63, ../../scss/theme/min-width-993.scss */
+  .ul-parent li ul {
+    position: absolute;
+  }
+  /* line 69, ../../scss/theme/min-width-993.scss */
+  .ul-parent .li-expanded:hover > ul, .ul-parent .li-expanded .li-expanded:hover > ul {
+    z-index: 1;
+    display: block;
+    animation: comeout 0.3s;
+  }
+
+  /* Global Menus */
+  /* line 80, ../../scss/theme/min-width-993.scss */
+  .li-1 .dropdown-arrow {
+    display: none;
+  }
+  /* line 84, ../../scss/theme/min-width-993.scss */
+  .li-1 .right-arrow {
+    display: flex;
+  }
+
+  /* line 90, ../../scss/theme/min-width-993.scss */
+  li.li-expanded > span, li.li-expanded > a > span {
+    align-items: center;
+    height: 100%;
+  }
+}

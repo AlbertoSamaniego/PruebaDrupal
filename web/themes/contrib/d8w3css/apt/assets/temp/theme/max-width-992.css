@@ -1,0 +1,208 @@
+@media (max-width: 992px) {
+  /* line 2, ../../scss/theme/max-width-992.scss */
+  .site-name {
+    font-size: 28px;
+  }
+
+  /* line 6, ../../scss/theme/max-width-992.scss */
+  .site-slogan {
+    font-size: 20px !important;
+  }
+
+  /* line 10, ../../scss/theme/max-width-992.scss */
+  h1.page-title {
+    padding: 16px;
+    font-size: 32px;
+  }
+
+  /* line 15, ../../scss/theme/max-width-992.scss */
+  .ui-dialog {
+    max-width: 90%;
+    margin: 0 5%;
+  }
+  /* line 19, ../../scss/theme/max-width-992.scss */
+  .ui-dialog .ui-dialog-buttonpane {
+    text-align: center;
+  }
+  /* line 22, ../../scss/theme/max-width-992.scss */
+  .ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset {
+    float: none;
+  }
+
+  /* line 28, ../../scss/theme/max-width-992.scss */
+  #main-container-inner > div:nth-child(2) .breadcrumb-found:first-child {
+    margin-top: 0 !important;
+  }
+
+  /* line 33, ../../scss/theme/max-width-992.scss */
+  .top-container-inner .first-top, .top-container-inner .second-top, .top-container-inner .third-top {
+    width: 100% !important;
+  }
+
+  /* line 39, ../../scss/theme/max-width-992.scss */
+  .main-container-inner .first-sidebar, .main-container-inner .w3css-content, .main-container-inner .second-sidebar {
+    width: 100% !important;
+  }
+
+  /* line 45, ../../scss/theme/max-width-992.scss */
+  .bottom-container-inner .first-bottom, .bottom-container-inner .second-bottom, .bottom-container-inner .third-bottom, .bottom-container-inner .forth-bottom {
+    width: 100% !important;
+  }
+
+  /* line 51, ../../scss/theme/max-width-992.scss */
+  .footer-container-inner .first-footer, .footer-container-inner .second-footer, .footer-container-inner .third-footer {
+    width: 100% !important;
+  }
+
+  /* line 56, ../../scss/theme/max-width-992.scss */
+  #top-container-inner {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  /* line 61, ../../scss/theme/max-width-992.scss */
+  #main-container-inner {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  /* line 65, ../../scss/theme/max-width-992.scss */
+  #main-container-inner > div {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  /* line 71, ../../scss/theme/max-width-992.scss */
+  #bottom-container-inner, #footer-container-inner, #footer-menu-inner {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  /* line 76, ../../scss/theme/max-width-992.scss */
+  .top-container-inner .third-top, .main-container-inner .second-sidebar, .bottom-container-inner .forth-bottom, .footer-container-inner .third-footer {
+    margin-bottom: 8px;
+  }
+
+  /* line 80, ../../scss/theme/max-width-992.scss */
+  .top-container-inner .first-top, .main-container-inner .first-sidebar, .bottom-container-inner .first-bottom, .footer-container-inner .first-footer {
+    margin-top: 8px;
+  }
+
+  /* line 85, ../../scss/theme/max-width-992.scss */
+  .main-container-inner .first-sidebar {
+    margin-bottom: 0;
+    margin-top: 20px;
+  }
+  /* line 90, ../../scss/theme/max-width-992.scss */
+  .main-container-inner .second-sidebar {
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+
+  /* Default Article Node */
+  /* line 99, ../../scss/theme/max-width-992.scss */
+  .page-node-type-article .node .field--type-image {
+    float: none;
+    margin: 0 auto;
+  }
+  /* line 104, ../../scss/theme/max-width-992.scss */
+  .page-node-type-article .field--type-text, .page-node-type-article .field--type-text-with-summary {
+    display: block !important;
+    clear: both;
+  }
+
+  /* Global Menus */
+  /* line 112, ../../scss/theme/max-width-992.scss */
+  .ul-child {
+    position: relative !important;
+  }
+
+  /* line 117, ../../scss/theme/max-width-992.scss */
+  .li-1 .right-arrow {
+    display: none;
+  }
+  /* line 121, ../../scss/theme/max-width-992.scss */
+  .li-1 .dropdown-arrow {
+    display: flex;
+  }
+
+  /* line 127, ../../scss/theme/max-width-992.scss */
+  .ul-parent li.li-expanded > span {
+    padding: 10px 16px;
+    height: auto;
+  }
+  /* line 132, ../../scss/theme/max-width-992.scss */
+  .ul-parent li.li-expanded > a {
+    padding-right: 56px;
+  }
+  /* line 133, ../../scss/theme/max-width-992.scss */
+  .ul-parent li.li-expanded > a > span {
+    padding: 10px 16px;
+    height: auto;
+  }
+
+  /* Horizontal Main Menu */
+  /* line 145, ../../scss/theme/max-width-992.scss */
+  .ul-responsive-h .li-item {
+    clear: both;
+    width: 100%;
+    float: left;
+  }
+  /* line 146, ../../scss/theme/max-width-992.scss */
+  .ul-responsive-h .li-item > a {
+    clear: both;
+    width: 100%;
+    float: left;
+  }
+  /* line 157, ../../scss/theme/max-width-992.scss */
+  .ul-responsive-h .ul-child, .ul-responsive-h .ul-parent {
+    clear: both;
+    width: 100%;
+    float: left;
+  }
+
+  /* line 165, ../../scss/theme/max-width-992.scss */
+  #main-navigation-h .li-item {
+    clear: both;
+    width: 100%;
+    float: left;
+  }
+  /* line 166, ../../scss/theme/max-width-992.scss */
+  #main-navigation-h .li-item > a {
+    clear: both;
+    width: 100%;
+    float: left;
+  }
+  /* line 177, ../../scss/theme/max-width-992.scss */
+  #main-navigation-h .ul-child, #main-navigation-h .ul-parent {
+    clear: both;
+    width: 100%;
+    float: left;
+  }
+
+  /* line 184, ../../scss/theme/max-width-992.scss */
+  .ul-responsive-h .ul-parent, #main-navigation-h .ul-parent {
+    display: none;
+  }
+
+  /* line 188, ../../scss/theme/max-width-992.scss */
+  .ul-responsive-h .ul-parent ul li > a, #main-navigation-h .ul-parent ul li > a {
+    padding-left: 35px !important;
+  }
+
+  /* line 192, ../../scss/theme/max-width-992.scss */
+  .ul-responsive-h .ul-parent ul ul li > a, #main-navigation-h .ul-parent ul ul li > a {
+    padding-left: 50px !important;
+  }
+
+  /* Vertical Menus */
+  /* line 198, ../../scss/theme/max-width-992.scss */
+  #main-navigation-v .li-1 .toggle-child:after {
+    content: none;
+  }
+
+  /* line 203, ../../scss/theme/max-width-992.scss */
+  .node--view-mode-full .node__content .field--type-text-long, .node--view-mode-full .node__content .field--type-string-long, .node--view-mode-full .node__content .field--type-text-with-summary {
+    font-size: 100%;
+    line-height: 1.7;
+  }
+}

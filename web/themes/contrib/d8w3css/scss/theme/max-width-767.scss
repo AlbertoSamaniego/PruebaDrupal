@@ -1,0 +1,12 @@
+@media (max-width: 767px) {
+  .node--view-mode-teaser {
+    .field--name-field-image, .node__content .field--name-field-media-image {
+      min-width: 100%;
+    }
+
+    .node__title, .field--name-field-image, .node__content .field--name-field-image {
+      padding-right: 0 !important;
+      margin-right: 0 !important;
+    }
+  }
+}

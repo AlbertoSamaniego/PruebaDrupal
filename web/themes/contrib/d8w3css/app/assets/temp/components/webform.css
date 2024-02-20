@@ -1,0 +1,74 @@
+/* CSS Webform */
+/* line 4, ../../scss/components/webform.scss */
+.webform-submission-form fieldset {
+  border: none;
+  background: transparent !important;
+  margin: 0 auto;
+  padding: 0;
+}
+/* line 10, ../../scss/components/webform.scss */
+.webform-submission-form fieldset .fieldset-wrapper.w3-panel {
+  border: none;
+  background: transparent !important;
+  margin: 0 auto;
+  padding: 0;
+}
+/* line 18, ../../scss/components/webform.scss */
+.webform-submission-form .form-actions {
+  text-align: center;
+}
+/* line 21, ../../scss/components/webform.scss */
+.webform-submission-form .form-actions > input {
+  margin: 15px 7px !important;
+}
+/* line 26, ../../scss/components/webform.scss */
+.webform-submission-form .form-type-webform-rating label {
+  height: 25px;
+  float: left;
+}
+
+/* line 32, ../../scss/components/webform.scss */
+.webform-multiple-table td input[type="image"] {
+  border-color: #ccc;
+}
+
+/* line 36, ../../scss/components/webform.scss */
+.webform-multiple-add {
+  text-align: center;
+}
+/* line 39, ../../scss/components/webform.scss */
+.webform-multiple-add .form-type-number input {
+  display: inline-block;
+  margin: 0;
+  width: 4em;
+}
+/* line 45, ../../scss/components/webform.scss */
+.webform-multiple-add div.w3-section.form-item {
+  width: auto;
+  clear: none;
+}
+/* line 51, ../../scss/components/webform.scss */
+.webform-multiple-add > div, .webform-multiple-add > input {
+  float: left;
+  margin-right: 10px;
+}
+/* line 57, ../../scss/components/webform.scss */
+.webform-multiple-add .field-suffix {
+  font-size: 90%;
+}
+
+/* line 62, ../../scss/components/webform.scss */
+.webform-multiple-table td.webform-multiple-table--handle {
+  width: auto;
+}
+
+/* line 66, ../../scss/components/webform.scss */
+.webform-has-field-prefix span.field-prefix + div, .webform-has-field-suffix > div + span.field-suffix {
+  display: inline-block;
+  clear: none;
+}
+
+/* line 71, ../../scss/components/webform.scss */
+.webform-multiple-table td input[type="image"] + input[type="image"] {
+  margin: 2px 0 0 0;
+}

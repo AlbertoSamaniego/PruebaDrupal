@@ -1,0 +1,205 @@
+/* The region colors */
+/* line 3, ../../scss/theme/default-color-theme.scss */
+.page-wrapper {
+  background-color: #f8f8f8;
+  color: #3a3a3a;
+}
+
+/* line 8, ../../scss/theme/default-color-theme.scss */
+#header {
+  background-color: #bebebe;
+}
+
+/* line 12, ../../scss/theme/default-color-theme.scss */
+.main-navigation-wrapper, .close-nav, .mobile-nav {
+  background-color: #222;
+  color: #efefef;
+}
+
+/* line 17, ../../scss/theme/default-color-theme.scss */
+#welcome-text {
+  background-color: white;
+  color: #3a3a3a;
+}
+
+/* line 22, ../../scss/theme/default-color-theme.scss */
+#highlighted {
+  background-color: #efefef;
+  color: #3a3a3a;
+}
+
+/* line 27, ../../scss/theme/default-color-theme.scss */
+#top-container {
+  background-color: #e4e4e4;
+}
+/* line 30, ../../scss/theme/default-color-theme.scss */
+#top-container .first-top > div {
+  background-color: #ededed;
+  color: #3a3a3a;
+}
+/* line 35, ../../scss/theme/default-color-theme.scss */
+#top-container .second-top > div {
+  background-color: #ddd;
+  color: #3a3a3a;
+}
+/* line 40, ../../scss/theme/default-color-theme.scss */
+#top-container .third-top > div {
+  background-color: #ededed;
+  color: #3a3a3a;
+}
+
+/* line 46, ../../scss/theme/default-color-theme.scss */
+#page-title {
+  background-color: #4e4e4e;
+  color: #efefef;
+}
+
+/* line 51, ../../scss/theme/default-color-theme.scss */
+#main-container {
+  background-color: #f4f4f4;
+  color: #3a3a3a;
+}
+/* line 55, ../../scss/theme/default-color-theme.scss */
+#main-container .main-box > div {
+  background-color: #ffffff;
+}
+
+/* line 60, ../../scss/theme/default-color-theme.scss */
+#bottom-container {
+  background-color: #4d4d4d;
+}
+/* line 63, ../../scss/theme/default-color-theme.scss */
+#bottom-container .first-bottom > div {
+  background-color: #636363;
+  color: #efefef;
+}
+/* line 68, ../../scss/theme/default-color-theme.scss */
+#bottom-container .second-bottom > div, #bottom-container .third-bottom > div {
+  background-color: #525252;
+  color: #efefef;
+}
+/* line 73, ../../scss/theme/default-color-theme.scss */
+#bottom-container .forth-bottom > div {
+  background-color: #636363;
+  color: #efefef;
+}
+
+/* line 79, ../../scss/theme/default-color-theme.scss */
+#footer-container {
+  background-color: #3a3a3a;
+}
+/* line 82, ../../scss/theme/default-color-theme.scss */
+#footer-container .first-footer > div {
+  background-color: #494949;
+  color: #9f9f9f;
+}
+/* line 87, ../../scss/theme/default-color-theme.scss */
+#footer-container .second-footer > div {
+  background-color: #313131;
+  color: #bebebe;
+}
+/* line 92, ../../scss/theme/default-color-theme.scss */
+#footer-container .third-footer > div {
+  background-color: #494949;
+  color: #9f9f9f;
+}
+
+/* line 98, ../../scss/theme/default-color-theme.scss */
+#footer-menu {
+  background-color: #1e1e1e;
+  color: #bebebe;
+}
+
+/* line 103, ../../scss/theme/default-color-theme.scss */
+#copyright {
+  background-color: #141414;
+  color: #bebebe;
+}
+
+/* button animation  */
+@keyframes btnBorderAnimation {
+  0% {
+    width: 0;
+    height: 0;
+    border-bottom-color: #fff;
+  }
+  99.9999% {
+    width: 100%;
+    height: 100%;
+    border-bottom-color: #fff;
+  }
+  100% {
+    width: 0;
+    height: 0;
+    border-bottom-color: transparent;
+  }
+}
+/* Border animation  */
+@keyframes borderLeftColors {
+  0% {
+    width: 0;
+    height: 0;
+    border-top-color: #fff;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+  }
+  50% {
+    width: 100%;
+    height: 0;
+    border-top-color: #fff;
+    border-right-color: #fff;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+  }
+  99.9999% {
+    width: 100%;
+    height: 100%;
+    border-top-color: #fff;
+    border-right-color: #fff;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+  }
+  100% {
+    width: 0;
+    height: 0;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+  }
+}
+@keyframes borderRightColors {
+  0% {
+    width: 0;
+    height: 0;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: #fff;
+    border-left-color: transparent;
+  }
+  50% {
+    width: 100%;
+    height: 0;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: #fff;
+    border-left-color: #fff;
+  }
+  99.9999% {
+    width: 100%;
+    height: 100%;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: #fff;
+    border-left-color: #fff;
+  }
+  100% {
+    width: 0;
+    height: 0;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+  }
+}

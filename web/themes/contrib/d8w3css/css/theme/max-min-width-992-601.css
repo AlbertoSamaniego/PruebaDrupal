@@ -1,0 +1,27 @@
+/* Medium Screen Only */
+@media (max-width: 992px) and (min-width: 601px) {
+  /* line 4, ../../scss/theme/max-min-width-992-601.scss */
+  .top-container-inner .first-top > div, .top-container-inner .second-top > div, .top-container-inner .third-top > div {
+    padding: 10px !important;
+  }
+
+  /* line 10, ../../scss/theme/max-min-width-992-601.scss */
+  .main-container-inner .first-sidebar > div, .main-container-inner .w3css-content > div, .main-container-inner .second-sidebar > div {
+    padding: 10px !important;
+  }
+
+  /* line 16, ../../scss/theme/max-min-width-992-601.scss */
+  .bottom-container-inner .first-bottom > div, .bottom-container-inner .second-bottom > div, .bottom-container-inner .third-bottom > div, .bottom-container-inner .forth-bottom > div {
+    padding: 10px !important;
+  }
+
+  /* line 22, ../../scss/theme/max-min-width-992-601.scss */
+  .footer-container-inner .first-footer > div, .footer-container-inner .second-footer > div, .footer-container-inner .third-footer > div {
+    padding: 10px !important;
+  }
+
+  /* line 27, ../../scss/theme/max-min-width-992-601.scss */
+  .footer-menu-inner > div {
+    padding: 10px !important;
+  }
+}

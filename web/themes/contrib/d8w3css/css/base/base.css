@@ -1,0 +1,108 @@
+/**
+ * @file
+ * Overall specifications for W3CSS Theme.
+ */
+/* Reset Links. */
+/* line 8, ../../scss/base/base.scss */
+* {
+  box-sizing: border-box;
+  outline: none;
+}
+/* line 12, ../../scss/base/base.scss */
+*:before, *:after {
+  box-sizing: border-box;
+  outline: none;
+}
+
+/* line 18, ../../scss/base/base.scss */
+html, body {
+  min-height: 100%;
+  overflow-wrap: break-word;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.8;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 28, ../../scss/base/base.scss */
+img, object, embed, video {
+  outline: none;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  border: none;
+  text-align: center;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* line 40, ../../scss/base/base.scss */
+a img {
+  border: none;
+  outline: none;
+}
+
+/* line 45, ../../scss/base/base.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* line 49, ../../scss/base/base.scss */
+h1, h2, h3 {
+  font-weight: 600;
+}
+
+/* line 53, ../../scss/base/base.scss */
+h4, h5, h6 {
+  font-weight: normal;
+}
+
+/* line 57, ../../scss/base/base.scss */
+h1 a, h2 a, h3 a, h4 a, h5 a, li a {
+  font-size: inherit;
+  line-height: inherit;
+  font-weight: inherit;
+  text-decoration: none;
+  color: inherit;
+  outline: none;
+}
+
+/* line 66, ../../scss/base/base.scss */
+a {
+  text-decoration: none;
+  outline: none;
+  border-radius: 0;
+  outline: none;
+}
+/* line 70, ../../scss/base/base.scss */
+a:link, a:visited, a:hover, a:active, a:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+/* line 79, ../../scss/base/base.scss */
+input, button, textarea, a:visited, input:visited, button:visited, textarea:visited, a:focus-within, input:focus-within, button:focus-within, textarea:focus-within, a:hover, input:hover, button:hover, textarea:hover, a:focus, input:focus, button:focus, textarea:focus, a:active, input:active, button:active, textarea:active {
+  border-radius: 0;
+  outline: none;
+}
+
+/* line 85, ../../scss/base/base.scss */
+input[type=textarea], input[type=button], input[type=search], input[type=textfield] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+}
+
+/* line 93, ../../scss/base/base.scss */
+.w3-ul li, nav.action-links li {
+  border: none;
+  border-width: 0 !important;
+}
+
+/* line 98, ../../scss/base/base.scss */
+.main-navigation-inner-v li .w3-button {
+  white-space: normal;
+}

@@ -1,0 +1,220 @@
+/* line 1, ../../scss/layout/layout-node-edit.scss */
+.layout-region-node-footer__content .description {
+  margin: 0;
+}
+
+/* line 5, ../../scss/layout/layout-node-edit.scss */
+.node-from .layout-node-form {
+  height: 100%;
+}
+
+/* line 9, ../../scss/layout/layout-node-edit.scss */
+.layout-region-node-secondary, .layout-region-node-footer, .layout-region-node-main {
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  background-color: #fff;
+  width: 100%;
+  margin: 20px 0;
+  padding: 0;
+  -webkit-box-shadow: 0px 0px 19px 19px rgba(180, 180, 180, 0.1);
+  box-shadow: 0px 0px 19px 19px rgba(180, 180, 180, 0.1);
+}
+
+/* line 20, ../../scss/layout/layout-node-edit.scss */
+.layout-region-node-footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #fff;
+}
+
+/* line 26, ../../scss/layout/layout-node-edit.scss */
+.layout-region-node-footer__content {
+  padding: 15px;
+  margin: 15px 0;
+  background-color: #f8f9fa;
+}
+
+/* line 32, ../../scss/layout/layout-node-edit.scss */
+.page-content {
+  margin-bottom: 80px;
+}
+
+/* line 36, ../../scss/layout/layout-node-edit.scss */
+.layout-icon__region {
+  fill: #f5f5f2;
+  stroke: #666;
+}
+
+/* line 41, ../../scss/layout/layout-node-edit.scss */
+.layout__region--content .w3-table-all {
+  border-color: #eaeaea !important;
+}
+
+/* line 45, ../../scss/layout/layout-node-edit.scss */
+.layout-node-form .w3-row > fieldset > div {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+/* line 49, ../../scss/layout/layout-node-edit.scss */
+.layout-node-form .w3-row > fieldset > div > div {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* line 55, ../../scss/layout/layout-node-edit.scss */
+.layout__region--content > .w3-row > fieldset {
+  margin-bottom: 16px !important;
+  padding-bottom: 16px !important;
+}
+
+/* line 61, ../../scss/layout/layout-node-edit.scss */
+.admin-context .block-local-tasks-block, .admin-context #drupal-off-canvas:not(.drupal-off-canvas-reset), .admin-context #drupal-off-canvas-wrapper, .admin-context .block-system-main-block {
+  font-family: "Helvetica", sans-serif;
+}
+
+/* line 67, ../../scss/layout/layout-node-edit.scss */
+.layout-node-form .w3-responsive {
+  overflow-x: unset;
+}
+/* line 71, ../../scss/layout/layout-node-edit.scss */
+.layout-node-form .paragraph-type-label {
+  display: inline-block;
+  padding-bottom: 8px;
+  font-weight: normal;
+}
+/* line 78, ../../scss/layout/layout-node-edit.scss */
+.layout-node-form .form-item label, .layout-node-form .form-item .label {
+  display: inline-block;
+  padding-bottom: 8px;
+  font-weight: normal;
+}
+/* line 85, ../../scss/layout/layout-node-edit.scss */
+.layout-node-form .paragraph-type-label {
+  padding-bottom: 0;
+}
+/* line 89, ../../scss/layout/layout-node-edit.scss */
+.layout-node-form .form-type-radio label, .layout-node-form .form-type-checkbox label {
+  padding-bottom: 0;
+  display: inline;
+}
+
+/* line 95, ../../scss/layout/layout-node-edit.scss */
+.layout-region-node-footer__content {
+  border-top: none;
+}
+
+/* line 100, ../../scss/layout/layout-node-edit.scss */
+.layout-node-form [type=checkbox], .layout-node-form [type=radio] {
+  float: left;
+  top: 0;
+}
+/* line 105, ../../scss/layout/layout-node-edit.scss */
+.layout-node-form th .paragraphs-actions {
+  margin-right: 0 !important;
+}
+/* line 109, ../../scss/layout/layout-node-edit.scss */
+.layout-node-form .paragraph-top {
+  align-items: center !important;
+}
+/* line 113, ../../scss/layout/layout-node-edit.scss */
+.layout-node-form .field-multiple-drag {
+  vertical-align: middle !important;
+}
+/* line 117, ../../scss/layout/layout-node-edit.scss */
+.layout-node-form .paragraphs-actions > .button + .paragraphs-dropdown {
+  margin: 0 8px !important;
+}
+/* line 121, ../../scss/layout/layout-node-edit.scss */
+.layout-node-form .form-wrapper .paragraphs-dropdown-action.button, .layout-node-form .paragraphs-dropdown-actions input {
+  margin: 0 !important;
+}
+
+/* line 126, ../../scss/layout/layout-node-edit.scss */
+.layout-region-node-footer__content .form-actions {
+  display: flex;
+}
+
+/* line 131, ../../scss/layout/layout-node-edit.scss */
+.layout-node-form .form-actions > input:last-of-type {
+  margin-right: 0;
+}
+/* line 135, ../../scss/layout/layout-node-edit.scss */
+.layout-node-form div.description {
+  padding: 5px !important;
+  margin: 5px 0 !important;
+  display: block;
+}
+/* line 142, ../../scss/layout/layout-node-edit.scss */
+.layout-node-form .form-item .w3-small, .layout-node-form .form-item .description {
+  padding: 5px !important;
+  margin: 5px 0 !important;
+  display: block;
+}
+/* line 150, ../../scss/layout/layout-node-edit.scss */
+.layout-node-form .description ul {
+  list-style: none;
+  margin: 0;
+}
+/* line 154, ../../scss/layout/layout-node-edit.scss */
+.layout-node-form .description ul li {
+  list-style: none;
+  margin: 0;
+}
+/* line 160, ../../scss/layout/layout-node-edit.scss */
+.layout-node-form .description .des-spacer {
+  font-weight: bold;
+}
+
+/* line 167, ../../scss/layout/layout-node-edit.scss */
+.layout-region-node-secondary .entity-meta div, .layout-region-node-secondary .entity-meta table, .layout-region-node-secondary .entity-meta details {
+  background-color: transparent !important;
+  border-color: transparent !important;
+}
+/* line 172, ../../scss/layout/layout-node-edit.scss */
+.layout-region-node-secondary .entity-meta summary {
+  padding: 0 !important;
+}
+/* line 177, ../../scss/layout/layout-node-edit.scss */
+.layout-region-node-secondary .entity-meta > div > div, .layout-region-node-secondary .entity-meta > details > div {
+  margin: 0 !important;
+}
+
+/* line 184, ../../scss/layout/layout-node-edit.scss */
+.vertical-tabs .w3-panel, .vertical-tabs .w3-container, .vertical-tabs .w3-section {
+  margin-bottom: 0;
+}
+/* line 188, ../../scss/layout/layout-node-edit.scss */
+.vertical-tabs .w3-panel, .vertical-tabs .w3-container {
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* line 197, ../../scss/layout/layout-node-edit.scss */
+.layout-region-node-secondary .entity-meta details .w3-panel, .layout-region-node-secondary .entity-meta .fieldset-wrapper, .layout-region-node-secondary .entity-meta fieldset {
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+/* line 204, ../../scss/layout/layout-node-edit.scss */
+.layout-region-node-secondary .entity-meta > details[open] {
+  padding: 8px !important;
+  background-color: #f8f8f8 !important;
+}
+/* line 208, ../../scss/layout/layout-node-edit.scss */
+.layout-region-node-secondary .entity-meta > details[open] summary ~ * {
+  animation: sweep .5s ease-in-out;
+}
+
+@keyframes sweep {
+  0% {
+    opacity: 0;
+    transform: translateX(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

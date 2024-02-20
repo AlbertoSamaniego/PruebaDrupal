@@ -1,0 +1,54 @@
+/* line 1, ../../scss/components/system-tabs.scss */
+nav.w3-bar.w3-section.tabs {
+  margin: 10px 0 !important;
+  width: auto;
+}
+
+/* line 6, ../../scss/components/system-tabs.scss */
+ul.tabs li, .action-links > li {
+  padding: 0 !important;
+}
+
+/* line 10, ../../scss/components/system-tabs.scss */
+ul.primary {
+  border-bottom: 1px solid #ddd;
+}
+/* line 13, ../../scss/components/system-tabs.scss */
+ul.primary li.is-active > a {
+  font-weight: bold;
+}
+
+/* line 18, ../../scss/components/system-tabs.scss */
+nav.action-links > li {
+  float: left;
+}
+
+/* line 22, ../../scss/components/system-tabs.scss */
+ul.primary > li {
+  border: none;
+  border-right: 1px dotted #ddd;
+  float: left;
+}
+/* line 27, ../../scss/components/system-tabs.scss */
+ul.primary > li:last-child {
+  border-right: none !important;
+}
+/* line 31, ../../scss/components/system-tabs.scss */
+ul.primary > li > a {
+  text-align: center;
+  padding: 8px 16px;
+  display: block;
+}
+
+/* line 38, ../../scss/components/system-tabs.scss */
+nav.action-links > li > a {
+  text-align: center;
+  padding: 8px 16px;
+  display: block;
+}
+
+/* line 44, ../../scss/components/system-tabs.scss */
+ul.secondary > li > a {
+  padding: 5px 10px;
+  display: block;
+}

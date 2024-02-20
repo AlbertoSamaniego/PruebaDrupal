@@ -1,0 +1,225 @@
+/* Global */
+/* line 3, ../../scss/w3-css-theme-custom/w3-theme-00016.scss */
+a, .w3-button {
+  transition: 0.4s !important;
+}
+
+/* line 7, ../../scss/w3-css-theme-custom/w3-theme-00016.scss */
+.ul-parent-account {
+  color: inherit;
+}
+
+/* line 12, ../../scss/w3-css-theme-custom/w3-theme-00016.scss */
+#header .fa, #header .svg-inline--fa {
+  color: inherit;
+}
+
+/* line 17, ../../scss/w3-css-theme-custom/w3-theme-00016.scss */
+#top-container .top-box > div, #bottom-container .bottom-box > div, #footer-container .footer-box > div {
+  border-width: 1px;
+  border-style: solid;
+}
+
+/* Text Color - Dark */
+/* line 24, ../../scss/w3-css-theme-custom/w3-theme-00016.scss */
+html, body, button, input, select, optgroup, textarea, #page-title, #highlighted, .page-wrapper, #top-container, #main-container, #footer-container, .ul-parent-footer, .search-slide-wrapper, #top-container .top-box > div, #footer-container .footer-box > div, #bottom-container .bottom-box > div, #footer-container .footer-box > div {
+  color: #343d46;
+}
+
+/* line 28, ../../scss/w3-css-theme-custom/w3-theme-00016.scss */
+h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  color: #feb209;
+}
+
+/* Text Color - light */
+/* line 34, ../../scss/w3-css-theme-custom/w3-theme-00016.scss */
+#header {
+  color: #f0f3f3 !important;
+}
+/* line 37, ../../scss/w3-css-theme-custom/w3-theme-00016.scss */
+#header h1, #header h2, #header h3, #header h4, #header h5, #header a, #header p {
+  color: #f0f3f3 !important;
+}
+
+/* line 42, ../../scss/w3-css-theme-custom/w3-theme-00016.scss */
+#copyright, .close-nav, .mobile-nav {
+  color: #f0f3f3 !important;
+}
+
+/* line 46, ../../scss/w3-css-theme-custom/w3-theme-00016.scss */
+#footer-menu {
+  color: #f0f3f3 !important;
+}
+/* line 49, ../../scss/w3-css-theme-custom/w3-theme-00016.scss */
+#footer-menu h1, #footer-menu h2, #footer-menu h3, #footer-menu h4, #footer-menu h5, #footer-menu a, #footer-menu p {
+  color: #f0f3f3 !important;
+}
+
+/* line 54, ../../scss/w3-css-theme-custom/w3-theme-00016.scss */
+.main-navigation-wrapper {
+  color: #f0f3f3 !important;
+}
+
+/* Light Background  */
+/* line 60, ../../scss/w3-css-theme-custom/w3-theme-00016.scss */
+#page-title, #highlighted, .page-wrapper, #top-container, #footer-container, .search-slide-wrapper, #top-container .top-box > div, #main-container .main-box > div, #footer-container .footer-box > div, #bottom-container .bottom-box > div {
+  background-color: #fff;
+}
+
+/* line 64, ../../scss/w3-css-theme-custom/w3-theme-00016.scss */
+#main-container, .search-slide-wrapper, .pager__item.is-active {
+  background-color: #fafbfb !important;
+}
+
+/* line 68, ../../scss/w3-css-theme-custom/w3-theme-00016.scss */
+#bottom-container {
+  background-color: #f0f3f3;
+}
+
+/* Dark Background  */
+/* line 74, ../../scss/w3-css-theme-custom/w3-theme-00016.scss */
+#header {
+  background-color: #0c85e6;
+}
+
+/* line 78, ../../scss/w3-css-theme-custom/w3-theme-00016.scss */
+.close-nav, .mobile-nav, .main-navigation-wrapper {
+  background-color: #f5a901;
+}
+
+/* line 82, ../../scss/w3-css-theme-custom/w3-theme-00016.scss */
+#footer-menu {
+  background-color: #373538;
+}
+
+/* line 86, ../../scss/w3-css-theme-custom/w3-theme-00016.scss */
+#footer-menu-inner form.w3-content {
+  border: 1px solid #445963;
+}
+
+/* line 90, ../../scss/w3-css-theme-custom/w3-theme-00016.scss */
+#copyright {
+  background-color: #54504b;
+}
+
+/* line 94, ../../scss/w3-css-theme-custom/w3-theme-00016.scss */
+.field--type-entity-reference a, .w3-small.node__submitted {
+  color: #0c85e6 !important;
+}
+
+/* Border Color  */
+/* line 100, ../../scss/w3-css-theme-custom/w3-theme-00016.scss */
+.cke_top, .w3-border, ul.primary, .cke_bottom, .cke_chrome {
+  border-color: #a2d3fa !important;
+}
+
+/* line 105, ../../scss/w3-css-theme-custom/w3-theme-00016.scss */
+ul.secondary, ul.primary > li {
+  border-color: #a2d3fa !important;
+}
+
+/* line 110, ../../scss/w3-css-theme-custom/w3-theme-00016.scss */
+#top-container .top-box > div, #bottom-container .bottom-box > div, #footer-container .footer-box > div {
+  border-color: #a2d3fa !important;
+}
+
+/* Hover Color  */
+/* line 116, ../../scss/w3-css-theme-custom/w3-theme-00016.scss */
+.w3-hover-over:hover, .w3-button:hover, #open-search:hover, #open-nav-inner:hover {
+  color: #fff !important;
+  background-color: #e49e01 !important;
+}
+
+/* line 121, ../../scss/w3-css-theme-custom/w3-theme-00016.scss */
+input:focus, select:focus, textarea:focus {
+  box-shadow: 0 25px 57px 0 rgba(0, 0, 0, 0.25);
+  border-color: #0c85e6 !important;
+}
+
+/* button animation  */
+@keyframes btnBorderAnimation {
+  0% {
+    width: 0;
+    height: 0;
+    border-bottom-color: #fff;
+  }
+  99.9999% {
+    width: 100%;
+    height: 100%;
+    border-bottom-color: #fff;
+  }
+  100% {
+    width: 0;
+    height: 0;
+    border-bottom-color: transparent;
+  }
+}
+/* Border animation  */
+@keyframes borderLeftColors {
+  0% {
+    width: 0;
+    height: 0;
+    border-top-color: #0c85e6;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+  }
+  50% {
+    width: 100%;
+    height: 0;
+    border-top-color: #0c85e6;
+    border-right-color: #0c85e6;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+  }
+  99.9999% {
+    width: 100%;
+    height: 100%;
+    border-top-color: #0c85e6;
+    border-right-color: #0c85e6;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+  }
+  100% {
+    width: 0;
+    height: 0;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+  }
+}
+@keyframes borderRightColors {
+  0% {
+    width: 0;
+    height: 0;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: #0c85e6;
+    border-left-color: transparent;
+  }
+  50% {
+    width: 100%;
+    height: 0;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: #0c85e6;
+    border-left-color: #0c85e6;
+  }
+  99.9999% {
+    width: 100%;
+    height: 100%;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: #0c85e6;
+    border-left-color: #0c85e6;
+  }
+  100% {
+    width: 0;
+    height: 0;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+  }
+}

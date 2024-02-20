@@ -1,0 +1,50 @@
+/* line 1, ../../scss/components/site-branding.scss */
+.header-inner > div {
+  float: left;
+  width: auto;
+}
+
+/* line 6, ../../scss/components/site-branding.scss */
+.site-name-slogan {
+  display: inline-block;
+  margin: 16px 0 0 16px;
+}
+
+/* line 11, ../../scss/components/site-branding.scss */
+.site-name {
+  text-transform: uppercase;
+  line-height: 140%;
+}
+/* line 15, ../../scss/components/site-branding.scss */
+.site-name a {
+  text-transform: uppercase;
+  line-height: 140%;
+}
+
+/* line 21, ../../scss/components/site-branding.scss */
+.site-slogan {
+  text-transform: uppercase;
+  line-height: 140%;
+}
+
+/* line 26, ../../scss/components/site-branding.scss */
+.site-name {
+  margin: 0;
+  font-size: 36px;
+}
+
+/* line 31, ../../scss/components/site-branding.scss */
+.site-slogan {
+  font-size: 24px;
+}
+
+/* line 35, ../../scss/components/site-branding.scss */
+.site-logo {
+  margin-top: 4px;
+}
+
+/* line 39, ../../scss/components/site-branding.scss */
+.site-name-link {
+  display: block;
+  width: 100%;
+}

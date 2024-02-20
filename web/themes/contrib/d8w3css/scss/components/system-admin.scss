@@ -1,0 +1,277 @@
+dl dd {
+  margin-bottom: 8px;
+  margin-left: 8px;
+}
+
+.panel__title {
+  margin: 0;
+  padding-bottom: 9px;
+  text-transform: uppercase;
+  font-size: 1em;
+}
+
+ul.admin-list {
+  padding: 0;
+}
+
+.admin-list li {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  list-style-image: none;
+  border-top: 1px solid #bfbfbf;
+
+  a {
+    display: block;
+    min-height: 0;
+    padding: 14px 15px 14px 25px;
+    background: url(../../images/icons/chevron-disc-right.svg) no-repeat 1px 17px;
+  }
+}
+
+/*Admin pages */
+
+.ui-dialog-content .w3-content {
+  max-width: 100%;
+  width: 100%;
+  display: inline-block;
+}
+
+.admin-context .block-system-main-block {
+  .w3-content {
+    max-width: 100%;
+    width: 100%;
+    display: inline-block;
+  }
+
+  .modules-tabs__menu + form.system-modules {
+    width: auto;
+  }
+}
+
+.winnow-clear {
+  top: 4px;
+}
+
+.system-modules label, .system-modules-uninstall label {
+  font-size: 16px;
+}
+
+.modules-tabs__pane table col.checkbox {
+  width: 3%;
+}
+
+.block-system-main-block .modules-tabs tr td {
+  vertical-align: baseline;
+}
+
+.dropbutton input {
+  &.w3-margin-bottom, &.w3-margin-top {
+    margin: 0 !important;
+    width: 100% !important;
+    text-align: left;
+    border: none;
+    transition: 0.4s;
+  }
+}
+
+.paragraph-type-top {
+  &.w3-row:before {
+    display: inline-block;
+    content: none;
+  }
+
+  align-items: center;
+}
+
+form .field--widget-entity-reference-paragraphs td.field-multiple-drag {
+  width: auto;
+  padding-left: 0;
+}
+
+/*.ui-dialog-content .w3-responsive,
+.admin-context .block-system-main-block .w3-responsive {
+  max-width: 100%;
+  width: 100%;
+  display: block;
+  clear: both;
+  overflow-x: initial;
+}*/
+
+.admin-context {
+  .block-system-main-block {
+    padding: 0 16px;
+
+    > {
+      div, form {
+        padding: 0 !important;
+      }
+    }
+  }
+
+  nav.action-links {
+    list-style: none;
+    margin-left: 16px;
+
+    li {
+      white-space: normal;
+      display: inline-block;
+      vertical-align: middle;
+      overflow: hidden;
+      text-decoration: none;
+      color: inherit;
+      background-color: inherit;
+      text-align: center;
+      cursor: pointer;
+    }
+  }
+
+  .region-title__action a, form .form-actions > a {
+    margin: 16px 10px;
+    padding: 9px 16px;
+    display: inline-block;
+  }
+
+  .region-title__action a {
+    margin: 5px;
+  }
+
+  form .form-actions {
+    button, input {
+      margin: 16px 10px 16px 0;
+    }
+  }
+
+  .block-system-main-block .modules-tabs {
+    margin-right: 16px;
+    margin-left: 16px;
+    border-color: #eaeaea;
+  }
+
+  .modules-tabs__pane {
+    margin: 0 0 0 240px !important;
+    padding: 8px 16px !important;
+    background: #f8f8f8;
+    border-left: 1px solid #eaeaea;
+    width: auto;
+  }
+
+  .block-system-main-block .modules-tabs tr td {
+    padding: 5px;
+  }
+
+  .system-modules td details {
+    margin: 0 !important;
+
+    summary {
+      padding: 6px 0 !important;
+    }
+  }
+
+  .modules-wrapper .requirements {
+    max-width: 100%;
+
+    span {
+      display: inline-block;
+    }
+  }
+
+  .item-list--comma-list {
+    &:before, &:after {
+      display: inline-block;
+      clear: none !important;
+    }
+
+    li.w3-panel {
+      &:after, &:before {
+        display: inline-block;
+        clear: none !important;
+      }
+    }
+  }
+
+  .admin-requirements {
+    text-align: left;
+  }
+
+  .item-list--comma-list {
+    display: inline-block;
+
+    li {
+      padding: 8px 5px;
+    }
+  }
+
+  .system-status-report__status-title {
+    padding: 8px !important;
+  }
+
+  .system-status-report__requirements-group {
+    details, summary {
+      list-style-type: none;
+    }
+  }
+
+  .system-status-report__entry__value {
+    padding-top: 0 !important;
+  }
+
+  .system-status-report__status-icon:before {
+    top: 11px;
+    left: -14px;
+  }
+
+  .system-status-report__requirements-group details {
+    margin-bottom: 5px !important;
+  }
+}
+
+/* admin pages  */
+
+@media screen and (min-width: 993px) {
+  .admin-context {
+    .system-status-general-info__items {
+      display: flex;
+      overflow-x: hidden;
+      flex-wrap: wrap;
+    }
+
+    .system-status-general-info__item {
+      border-color: #eaeaea;
+      flex: 1;
+      flex-basis: 33%;
+      width: 33%;
+
+      &:nth-child(2) {
+        flex: 2;
+        flex-basis: 66%;
+      }
+    }
+
+    .system-status-general-info__run-cron {
+      margin: 15px 0 5px;
+    }
+  }
+}
+
+/**
+ * Reusable colors.
+ */
+
+.color-success {
+  color: #325e1c;
+  background-color: #ddffdd !important;
+}
+
+.color-warning {
+  color: #734c00;
+  background-color: #ffffcc !important;
+}
+
+.color-error {
+  color: #a51b00;
+  background-color: #ffdddd !important;
+}
+
+/* CKE */

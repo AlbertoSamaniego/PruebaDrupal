@@ -1,0 +1,73 @@
+/* CSS Webform */
+
+.webform-submission-form {
+  fieldset {
+    border: none;
+    background: transparent !important;
+    margin: 0 auto;
+    padding: 0;
+
+    .fieldset-wrapper.w3-panel {
+      border: none;
+      background: transparent !important;
+      margin: 0 auto;
+      padding: 0;
+    }
+  }
+
+  .form-actions {
+    text-align: center;
+
+    > input {
+      margin: 15px 7px !important;
+    }
+  }
+
+  .form-type-webform-rating label {
+    height: 25px;
+    float: left;
+  }
+}
+
+.webform-multiple-table td input[type="image"] {
+  border-color: #ccc;
+}
+
+.webform-multiple-add {
+  text-align: center;
+
+  .form-type-number input {
+    display: inline-block;
+    margin: 0;
+    width: 4em;
+  }
+
+  div.w3-section.form-item {
+    width: auto;
+    clear: none;
+  }
+
+  > {
+    div, input {
+      float: left;
+      margin-right: 10px;
+    }
+  }
+
+  .field-suffix {
+    font-size: 90%;
+  }
+}
+
+.webform-multiple-table td.webform-multiple-table--handle {
+  width: auto;
+}
+
+.webform-has-field-prefix span.field-prefix + div, .webform-has-field-suffix > div + span.field-suffix {
+  display: inline-block;
+  clear: none;
+}
+
+.webform-multiple-table td input[type="image"] + input[type="image"] {
+  margin: 2px 0 0 0;
+}

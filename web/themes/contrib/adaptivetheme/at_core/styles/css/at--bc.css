@@ -1,0 +1,11 @@
+.layout-type--flex-builder .page {
+  display: flex;
+  flex-flow: column;
+  width: 250%; }
+.layout-type--flex-builder .l-attribution {
+  order: 100; }
+
+.bogus {
+  padding: 0; }
+
+/*# sourceMappingURL=at--bc.css.map */

@@ -1,0 +1,97 @@
+/* System Messages. */
+/* line 3, ../../scss/components/system-messages.scss */
+.messages {
+  background: no-repeat 10px 17px;
+  /* LTR */
+  border: 1px solid;
+  border-width: 1px 1px 1px 0;
+  /* LTR */
+  border-radius: 2px;
+  padding: 15px 20px;
+  /* LTR */
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+/* line 19, ../../scss/components/system-messages.scss */
+[dir="rtl"] .messages {
+  border-width: 1px 0 1px 1px;
+  background-position: right 10px top 17px;
+  padding-left: 20px;
+  padding-right: 35px;
+  text-align: right;
+}
+
+/* line 27, ../../scss/components/system-messages.scss */
+.messages + .messages {
+  margin-top: 1.538em;
+}
+
+/* line 31, ../../scss/components/system-messages.scss */
+.messages__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 37, ../../scss/components/system-messages.scss */
+.messages__item + .messages__item {
+  margin-top: 0.769em;
+}
+
+/* See .color-success in Seven's colors.css */
+/* line 43, ../../scss/components/system-messages.scss */
+.messages--status {
+  color: #325e1c;
+  background-color: #f3faef;
+  border-color: #c9e1bd #c9e1bd #c9e1bd transparent;
+  /* LTR */
+  box-shadow: -8px 0 0 #77b259;
+  /* LTR */
+}
+
+/* line 54, ../../scss/components/system-messages.scss */
+[dir="rtl"] .messages--status {
+  border-color: #c9e1bd transparent #c9e1bd #c9e1bd;
+  box-shadow: 8px 0 0 #77b259;
+  margin-left: 0;
+}
+
+/* See .color-warning in Seven's colors.css */
+/* line 62, ../../scss/components/system-messages.scss */
+.messages--warning {
+  background-color: #fdf8ed;
+  border-color: #f4daa6 #f4daa6 #f4daa6 transparent;
+  /* LTR */
+  color: #734c00;
+  box-shadow: -8px 0 0 #e09600;
+  /* LTR */
+}
+
+/* line 73, ../../scss/components/system-messages.scss */
+[dir="rtl"] .messages--warning {
+  border-color: #f4daa6 transparent #f4daa6 #f4daa6;
+  box-shadow: 8px 0 0 #e09600;
+}
+
+/* See .color-error in Seven's colors.css */
+/* line 80, ../../scss/components/system-messages.scss */
+.messages--error {
+  background-color: #fcf4f2;
+  color: #a51b00;
+  border-color: #f9c9bf #f9c9bf #f9c9bf transparent;
+  /* LTR */
+  box-shadow: -8px 0 0 #e62600;
+  /* LTR */
+}
+
+/* line 91, ../../scss/components/system-messages.scss */
+[dir="rtl"] .messages--error {
+  border-color: #f9c9bf transparent #f9c9bf #f9c9bf;
+  box-shadow: 8px 0 0 #e62600;
+}
+
+/* line 96, ../../scss/components/system-messages.scss */
+.messages--error p.error {
+  color: #a51b00;
+}

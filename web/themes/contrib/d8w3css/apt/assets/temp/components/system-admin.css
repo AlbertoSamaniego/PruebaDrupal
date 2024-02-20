@@ -1,0 +1,272 @@
+/* line 1, ../../scss/components/system-admin.scss */
+dl dd {
+  margin-bottom: 8px;
+  margin-left: 8px;
+}
+
+/* line 6, ../../scss/components/system-admin.scss */
+.panel__title {
+  margin: 0;
+  padding-bottom: 9px;
+  text-transform: uppercase;
+  font-size: 1em;
+}
+
+/* line 13, ../../scss/components/system-admin.scss */
+ul.admin-list {
+  padding: 0;
+}
+
+/* line 17, ../../scss/components/system-admin.scss */
+.admin-list li {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  list-style-image: none;
+  border-top: 1px solid #bfbfbf;
+}
+/* line 25, ../../scss/components/system-admin.scss */
+.admin-list li a {
+  display: block;
+  min-height: 0;
+  padding: 14px 15px 14px 25px;
+  background: url(../../images/icons/chevron-disc-right.svg) no-repeat 1px 17px;
+}
+
+/*Admin pages */
+/* line 35, ../../scss/components/system-admin.scss */
+.ui-dialog-content .w3-content {
+  max-width: 100%;
+  width: 100%;
+  display: inline-block;
+}
+
+/* line 42, ../../scss/components/system-admin.scss */
+.admin-context .block-system-main-block .w3-content {
+  max-width: 100%;
+  width: 100%;
+  display: inline-block;
+}
+/* line 48, ../../scss/components/system-admin.scss */
+.admin-context .block-system-main-block .modules-tabs__menu + form.system-modules {
+  width: auto;
+}
+
+/* line 53, ../../scss/components/system-admin.scss */
+.winnow-clear {
+  top: 4px;
+}
+
+/* line 57, ../../scss/components/system-admin.scss */
+.system-modules label, .system-modules-uninstall label {
+  font-size: 16px;
+}
+
+/* line 61, ../../scss/components/system-admin.scss */
+.modules-tabs__pane table col.checkbox {
+  width: 3%;
+}
+
+/* line 65, ../../scss/components/system-admin.scss */
+.block-system-main-block .modules-tabs tr td {
+  vertical-align: baseline;
+}
+
+/* line 70, ../../scss/components/system-admin.scss */
+.dropbutton input.w3-margin-bottom, .dropbutton input.w3-margin-top {
+  margin: 0 !important;
+  width: 100% !important;
+  text-align: left;
+  border: none;
+  transition: 0.4s;
+}
+
+/* line 79, ../../scss/components/system-admin.scss */
+.paragraph-type-top {
+  align-items: center;
+}
+/* line 80, ../../scss/components/system-admin.scss */
+.paragraph-type-top.w3-row:before {
+  display: inline-block;
+  content: none;
+}
+
+/* line 88, ../../scss/components/system-admin.scss */
+form .field--widget-entity-reference-paragraphs td.field-multiple-drag {
+  width: auto;
+  padding-left: 0;
+}
+
+/*.ui-dialog-content .w3-responsive,
+.admin-context .block-system-main-block .w3-responsive {
+  max-width: 100%;
+  width: 100%;
+  display: block;
+  clear: both;
+  overflow-x: initial;
+}*/
+/* line 103, ../../scss/components/system-admin.scss */
+.admin-context .block-system-main-block {
+  padding: 0 16px;
+}
+/* line 107, ../../scss/components/system-admin.scss */
+.admin-context .block-system-main-block > div, .admin-context .block-system-main-block > form {
+  padding: 0 !important;
+}
+/* line 113, ../../scss/components/system-admin.scss */
+.admin-context nav.action-links {
+  list-style: none;
+  margin-left: 16px;
+}
+/* line 117, ../../scss/components/system-admin.scss */
+.admin-context nav.action-links li {
+  white-space: normal;
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  background-color: inherit;
+  text-align: center;
+  cursor: pointer;
+}
+/* line 130, ../../scss/components/system-admin.scss */
+.admin-context .region-title__action a, .admin-context form .form-actions > a {
+  margin: 16px 10px;
+  padding: 9px 16px;
+  display: inline-block;
+}
+/* line 136, ../../scss/components/system-admin.scss */
+.admin-context .region-title__action a {
+  margin: 5px;
+}
+/* line 141, ../../scss/components/system-admin.scss */
+.admin-context form .form-actions button, .admin-context form .form-actions input {
+  margin: 16px 10px 16px 0;
+}
+/* line 146, ../../scss/components/system-admin.scss */
+.admin-context .block-system-main-block .modules-tabs {
+  margin-right: 16px;
+  margin-left: 16px;
+  border-color: #eaeaea;
+}
+/* line 152, ../../scss/components/system-admin.scss */
+.admin-context .modules-tabs__pane {
+  margin: 0 0 0 240px !important;
+  padding: 8px 16px !important;
+  background: #f8f8f8;
+  border-left: 1px solid #eaeaea;
+  width: auto;
+}
+/* line 160, ../../scss/components/system-admin.scss */
+.admin-context .block-system-main-block .modules-tabs tr td {
+  padding: 5px;
+}
+/* line 164, ../../scss/components/system-admin.scss */
+.admin-context .system-modules td details {
+  margin: 0 !important;
+}
+/* line 167, ../../scss/components/system-admin.scss */
+.admin-context .system-modules td details summary {
+  padding: 6px 0 !important;
+}
+/* line 172, ../../scss/components/system-admin.scss */
+.admin-context .modules-wrapper .requirements {
+  max-width: 100%;
+}
+/* line 175, ../../scss/components/system-admin.scss */
+.admin-context .modules-wrapper .requirements span {
+  display: inline-block;
+}
+/* line 181, ../../scss/components/system-admin.scss */
+.admin-context .item-list--comma-list:before, .admin-context .item-list--comma-list:after {
+  display: inline-block;
+  clear: none !important;
+}
+/* line 187, ../../scss/components/system-admin.scss */
+.admin-context .item-list--comma-list li.w3-panel:after, .admin-context .item-list--comma-list li.w3-panel:before {
+  display: inline-block;
+  clear: none !important;
+}
+/* line 194, ../../scss/components/system-admin.scss */
+.admin-context .admin-requirements {
+  text-align: left;
+}
+/* line 198, ../../scss/components/system-admin.scss */
+.admin-context .item-list--comma-list {
+  display: inline-block;
+}
+/* line 201, ../../scss/components/system-admin.scss */
+.admin-context .item-list--comma-list li {
+  padding: 8px 5px;
+}
+/* line 206, ../../scss/components/system-admin.scss */
+.admin-context .system-status-report__status-title {
+  padding: 8px !important;
+}
+/* line 211, ../../scss/components/system-admin.scss */
+.admin-context .system-status-report__requirements-group details, .admin-context .system-status-report__requirements-group summary {
+  list-style-type: none;
+}
+/* line 216, ../../scss/components/system-admin.scss */
+.admin-context .system-status-report__entry__value {
+  padding-top: 0 !important;
+}
+/* line 220, ../../scss/components/system-admin.scss */
+.admin-context .system-status-report__status-icon:before {
+  top: 11px;
+  left: -14px;
+}
+/* line 225, ../../scss/components/system-admin.scss */
+.admin-context .system-status-report__requirements-group details {
+  margin-bottom: 5px !important;
+}
+
+/* admin pages  */
+@media screen and (min-width: 993px) {
+  /* line 234, ../../scss/components/system-admin.scss */
+  .admin-context .system-status-general-info__items {
+    display: flex;
+    overflow-x: hidden;
+    flex-wrap: wrap;
+  }
+  /* line 240, ../../scss/components/system-admin.scss */
+  .admin-context .system-status-general-info__item {
+    border-color: #eaeaea;
+    flex: 1;
+    flex-basis: 33%;
+    width: 33%;
+  }
+  /* line 246, ../../scss/components/system-admin.scss */
+  .admin-context .system-status-general-info__item:nth-child(2) {
+    flex: 2;
+    flex-basis: 66%;
+  }
+  /* line 252, ../../scss/components/system-admin.scss */
+  .admin-context .system-status-general-info__run-cron {
+    margin: 15px 0 5px;
+  }
+}
+/**
+ * Reusable colors.
+ */
+/* line 262, ../../scss/components/system-admin.scss */
+.color-success {
+  color: #325e1c;
+  background-color: #ddffdd !important;
+}
+
+/* line 267, ../../scss/components/system-admin.scss */
+.color-warning {
+  color: #734c00;
+  background-color: #ffffcc !important;
+}
+
+/* line 272, ../../scss/components/system-admin.scss */
+.color-error {
+  color: #a51b00;
+  background-color: #ffdddd !important;
+}
+
+/* CKE */
